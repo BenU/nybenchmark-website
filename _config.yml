@@ -1,0 +1,9 @@
+title: New York Benchmarking Project
+description: Civic reform through benchmarking.
+theme: minima
+
+author:
+  name: New York Benchmarking Project
+
+plugins:
+  - jekyll-feed
