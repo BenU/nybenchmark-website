@@ -42,7 +42,7 @@ Some of the challenges include:
 
 - Financial data published in nonstandard formats
 - Key information scattered across multiple documents
-- Separate political and financial reporting for school districts
+- Separate political and financial reporting for school districts in some jurisdictions
 - PDFs that are human-readable but not machine-readable
 - Inconsistent terminology for similar concepts
 
@@ -83,7 +83,7 @@ Models such as the council–manager form of government were developed precisely
 When functioning poorly, they can be undermined by the same incentives they were designed to counteract.
 
 Benchmarking does not resolve these tensions, but it **makes them visible**.  
-Patterns in staffing, compensation, turnover, and outcomes often tell a story long before scandals or crises emerge.
+Patterns in staffing, compensation, and outcomes often tell a story long before scandals or crises emerge.
 
 ---
 
