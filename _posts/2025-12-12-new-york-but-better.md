@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New York, But Better"
+description: An introduction to the New York Benchmarking Project and the case for civic reform through systematic comparison.
 ---
 
 New York is a place of extraordinary ambition, talent, and cultural vitality.  
