@@ -6,8 +6,8 @@ author:
   name: New York Benchmarking Project
 
 header_pages:
-  - _pages/methods.md
-  - _pages/about.md
+  - methods.md
+  - about.md
 
 plugins:
   - jekyll-feed
