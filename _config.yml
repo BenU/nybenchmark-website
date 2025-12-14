@@ -5,5 +5,9 @@ theme: minima
 author:
   name: New York Benchmarking Project
 
+header_pages:
+  - _pages/methods.md
+  - _pages/about.md
+
 plugins:
   - jekyll-feed
