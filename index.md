@@ -13,7 +13,10 @@ The project focuses on careful extraction of data from primary source
 documents (such as Annual Comprehensive Financial Reports) and the use
 of benchmarking to identify best practices and outliers.
 
-**Status:** early-stage and exploratory.
+**Status:** Alpha Release (Live Data)
 
 - Blog posts explain the motivation, methods, and findings
-- A public data explorer is in development
+- **[Launch the Data Explorer (app.nybenchmark.org)](https://app.nybenchmark.org)**
+
+---
+*The data engine is now live. View financial documents and extracted metrics for pilot cities.*
