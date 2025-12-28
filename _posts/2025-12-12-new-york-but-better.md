@@ -5,7 +5,7 @@ description: An introduction to the New York Benchmarking Project and the case f
 ---
 
 New York is a place of extraordinary ambition, talent, and cultural vitality.  
-It attracts people from around the world and inspires deep loyalty from those who call it home. Yet when it comes to the everyday functioning of government—especially at the local level—New York too often tolerates outcomes that fall well short of what its residents should reasonably expect.
+It attracts people from around the world and inspires deep loyalty from those who call it home. Yet when it comes to the everyday functioning of government— at all levels —New York too often tolerates outcomes that fall well short of what its residents should reasonably expect.
 
 This project starts from a simple contention:
 
