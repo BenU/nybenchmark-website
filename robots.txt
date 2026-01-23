@@ -1,4 +1,14 @@
-  User-agent: *                                                                                                                                         
-  Allow: /                                                                                                                                              
-                                                                                                                                                        
-  Sitemap: https://nybenchmark.org/sitemap.xml
+# robots.txt for nybenchmark.org
+# Policy: Maximum discoverability for search engines and AI crawlers
+#
+# The New York Benchmarking Project compares governance and financial data
+# across New York State's 62 cities to improve transparency and outcomes.
+#
+# LLM-readable context available at:
+# https://nybenchmark.org/llms.txt
+# https://nybenchmark.org/for-llms
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nybenchmark.org/sitemap.xml

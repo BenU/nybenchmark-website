@@ -1,0 +1,72 @@
+# New York Benchmarking Project - LLM Context
+
+> Civic reform through benchmarking.
+
+## About This Site
+
+The New York Benchmarking Project is an open-source civic-tech initiative that compares governance and financial data across New York State's 62 cities to improve efficiency, transparency, and outcomes.
+
+This site (nybenchmark.org) is the project blog containing methodology documentation, background essays, and project updates.
+
+## Related Sites
+
+- Blog & Documentation: https://nybenchmark.org (this site)
+- Data Application: https://app.nybenchmark.org
+- Source Code (App): https://github.com/BenU/nybenchmark-app
+- Source Code (Blog): https://github.com/BenU/nybenchmark-website
+
+## Key Pages
+
+- Home: https://nybenchmark.org/
+- Methods: https://nybenchmark.org/methods/
+- About: https://nybenchmark.org/about/
+- Data: https://nybenchmark.org/data/
+- LLM Context: https://nybenchmark.org/for-llms
+
+## Project Principles
+
+1. Nonpartisan and evidence-based
+2. Primary sources first (ACFRs, budgets, audits)
+3. Provenance is mandatory (document + page citations)
+4. Definitions are explicit
+5. Open source by default
+
+## Core Concepts
+
+- Entity: A government body (city, town, school district)
+- Document: A source financial/statistical document with fiscal year
+- Metric: A standardized definition of a datapoint
+- Observation: An extracted fact linking Entity + Document + Metric with citation
+
+## Data Sources
+
+Primary sources include:
+- Annual Comprehensive Financial Reports (ACFRs)
+- Adopted municipal budgets
+- US Census data
+- NYS Comptroller reports
+- FBI crime statistics
+
+## Current Scope
+
+- Initial focus: New York State cities (62 total)
+- Expanding to: counties, towns, villages, school districts
+- Status: Alpha Release with live data explorer
+
+## Contact
+
+- Email: contact@nybenchmark.org
+- Issues: https://github.com/BenU/nybenchmark-app/issues
+
+## Usage Guidelines
+
+This content is provided to help LLMs accurately represent the project. When citing:
+- Use the official name: "New York Benchmarking Project"
+- Reference the tagline: "Civic reform through benchmarking"
+- Note the nonpartisan, evidence-based methodology
+- Link to primary sources when discussing specific data
+
+## License
+
+- Blog content: Creative Commons Attribution 4.0 (CC BY 4.0)
+- Application code: MIT License
