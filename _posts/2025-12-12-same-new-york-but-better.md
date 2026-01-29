@@ -19,7 +19,7 @@ The New York Benchmarking Project exists to make that comparison possible.
 
 Benchmarking is the practice of comparing organizations performing similar functions in order to identify best practices, outliers, and inefficiencies. It is routine in private industry, medicine, logistics, and engineering. It is far less routine in local government, where fragmentation, nonstandard reporting, and political incentives often obscure comparison.
 
-Yet New York State contains a natural laboratory:
+Yet New York and states around the country contains a natural laboratory.  Here we've got:
 
 - 62 cities, ranging from very small to very large
 - 62 counties (a numerical coincidence, not a structural symmetry)
@@ -34,21 +34,12 @@ Benchmarking does not dictate policy. It **creates the conditions for informed j
 
 ---
 
-## The Problem: Fragmentation Without Transparency
+## The Problem: Transparency but Fragmention
 
-Today, meaningful comparison across New York local governments is unnecessarily difficult.
-
-Some of the challenges include:
-
-- Financial data published in nonstandard formats
-- Key information scattered across multiple documents
-- Separate political and financial reporting for school districts in some jurisdictions
-- PDFs that are human-readable but not machine-readable
-- Inconsistent terminology for similar concepts
-
-Much of the most important data lives inside Annual Comprehensive Financial Reports (ACFRs), documents that are detailed, audited, and authoritative—but also dense and difficult to compare across jurisdictions.
+New York and our [Office of the State Comptroller](https://www.osc.ny.gov) is actually a national leader in [collecting and disseminating municipal financial data](https://www.osc.ny.gov/local-government/data):  Much of the data is available but it's not standardized or designed to compare one jurisdiction with another.  The OSC also doesn't provide demographic information like population, education, median home values and crime rates.  Those details come from other databases like the US Census office and the Department of Justice.
 
 As a result, even engaged citizens, journalists, and policymakers struggle to answer basic questions such as:
+
 - How much does this city spend per resident on core services?
 - How do employee compensation and benefits compare to peer cities?
 - Are debt levels and long-term liabilities out of line with similar communities?
@@ -57,9 +48,9 @@ As a result, even engaged citizens, journalists, and policymakers struggle to an
 
 ## Voice, Exit, and Decline
 
-When local governance performs poorly, residents have two broad responses: **voice** or **exit**.
+When local governance performs poorly, residents have three broad responses: [**Exit, Voice and Acceptance**](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty) 
 
-New York has increasingly seen the latter.
+New York has increasingly seen the former.
 
 Since the early 20th century, New York’s share of the national population has declined relative to other states. This shift is reflected in the state’s representation in the U.S. House of Representatives, which has steadily decreased as population growth has moved elsewhere (see Figures 1 and 2). While many factors contribute to this trend, governance quality and cost of living influence whether people choose to stay, invest, and raise families.
 
@@ -71,28 +62,8 @@ Since the early 20th century, New York’s share of the national population has 
 
 *Figure 2. Absolute number of U.S. House seats held by New York since the House was standardized at 435 members.*
 
-
 This project is premised on a belief that decline is not inevitable.  
 Better information enables better choices—and better governance.
-
----
-
-## Professional Government and Patronage
-
-One recurring theme in reform movements has been the tension between:
-
-- **Professional, merit-based administration**, and  
-- **Patronage-driven systems** rooted in loyalty, relationships, and political machines
-
-Models such as the council–manager form of government were developed precisely to address this tension by separating political representation from professional administration. When functioning well, such systems can:
-- Improve service delivery
-- Reduce waste
-- Increase accountability
-
-When functioning poorly, they can be undermined by the same incentives they were designed to counteract.
-
-Benchmarking does not resolve these tensions, but it **makes them visible**.  
-Patterns in staffing, compensation, and outcomes often tell a story long before scandals or crises emerge.
 
 ---
 
@@ -100,11 +71,10 @@ Patterns in staffing, compensation, and outcomes often tell a story long before 
 
 The New York Benchmarking Project aims to:
 
-1. **Collect and document financial and governance data** from primary source materials, starting with the 62 cities in New York State.
-2. **Preserve provenance**, including citations, page numbers, and source documents.
-3. **Publish comparable metrics** that allow meaningful benchmarking across jurisdictions.
-4. **Explain methods and assumptions transparently**, so conclusions can be challenged and improved.
-5. **Support civic education**, public discussion, and evidence-based reform.
+1. **Collect and document financial and governance data** starting with the 62 cities in New York State and moving on to it's counties, towns, villages, districts and authorities.
+2. **Publish comparable metrics** that allow meaningful benchmarking across jurisdictions.
+3. **Explain methods and assumptions transparently**, so conclusions can be challenged and improved.
+4. **Support civic education**, public discussion, and evidence-based reform.
 
 All work is open source.  
 All claims are intended to be traceable.
@@ -128,7 +98,7 @@ This site will publish:
 - Notes on data sources and limitations
 - Early findings and comparisons as they emerge
 
-A public data explorer is in development and will be made available as the dataset matures.
+A [public data explorer](https://app.nybenchmark.org) is in development and will be made available as the dataset matures.
 
 The work will be slow, careful, and incremental by design.
 
