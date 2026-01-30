@@ -12,3 +12,5 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+url: "https://nybenchmark.org"
