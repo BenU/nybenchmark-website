@@ -14,3 +14,9 @@ plugins:
   - jekyll-sitemap
 
 url: "https://nybenchmark.org"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-default.png
