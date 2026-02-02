@@ -1,22 +1,17 @@
 ---
 layout: home
 title: New York Benchmarking Project
+description: "An open-source project benchmarking financial and demographic data across New York State's local governments — 661K+ data points, 62 cities, 30 years of trends."
 ---
 
 **Civic reform through benchmarking.**
 
-The New York Benchmarking Project is an open-source effort to compare
-governance and financial data across New York State’s 62 cities, with
-the goal of improving efficiency, transparency, and outcomes.
+The New York Benchmarking Project is an open-source effort to benchmark financial and demographic data across New York State's local governments — starting with 62 cities and expanding to towns, villages, counties, and special districts — making it easy for residents, journalists, researchers, and policymakers to compare how they raise and spend public money.
 
-The project focuses on careful extraction of data from primary source
-documents (such as Annual Comprehensive Financial Reports) and the use
-of benchmarking to identify best practices and outliers.
+We import bulk data from the [NYS Office of the State Comptroller](https://www.osc.ny.gov/local-government/data) (61 cities, 30 years of financial data) and the [U.S. Census Bureau](https://www.census.gov/data.html) (population, income, poverty), then compute derived metrics like Fund Balance %, Debt Service %, and Per-Capita Spending that make meaningful comparison possible. The OSC does invaluable work collecting standardized financial reports from local governments across the state. NY Benchmark builds on that data by normalizing it for population, computing key ratios, and presenting it in comparative dashboards.
 
-**Status:** Alpha Release (Live Data)
+**Today:** 661,000+ data points covering 62 cities, ranked dashboards, per-city trend charts, and derived fiscal health metrics.
 
-- Blog posts explain the motivation, methods, and findings
-- **[Launch the Data Explorer (app.nybenchmark.org)](https://app.nybenchmark.org)**
+**Coming soon:** Side-by-side city comparisons, metric-specific leaderboards, category drill-downs (e.g., police spending across all cities), and expansion to NYC, towns, villages, and counties.
 
----
-*The data engine is now live. View financial documents and extracted metrics for pilot cities.*
+**[Launch the App (app.nybenchmark.org)](https://app.nybenchmark.org)**

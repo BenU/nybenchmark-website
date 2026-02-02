@@ -3,36 +3,34 @@
 **Civic reform through benchmarking.**
 
 This repository contains the public-facing website and blog for the
-New York Benchmarking Project, an open-source effort comparing governance
-and financial data across New York State’s 62 cities to improve efficiency,
-transparency, and outcomes.
+New York Benchmarking Project, an open-source effort to benchmark
+financial and demographic data across New York State's local
+governments — starting with 62 cities and expanding to towns, villages,
+counties, and special districts — making it easy to compare how they
+raise and spend public money.
 
-The project focuses on careful, documented extraction of data from primary
-source materials (such as Annual Comprehensive Financial Reports) and the
-use of benchmarking to identify best practices, outliers, and areas for
-reform.
+The project imports bulk data from the NYS Office of the State
+Comptroller (61 cities, 30 years of financial data) and the U.S.
+Census Bureau (population, income, poverty), then computes derived
+metrics and comparative rankings. Individual city ACFRs are consulted
+for quality assurance and validation, not primary data entry.
 
 ## Status
 
-Early-stage and exploratory.
-
-Initial efforts focus on:
-- Establishing methodology and standards
-- Publishing background and explanatory essays
-- Documenting data sources and assumptions
-
-A public data explorer and application are planned but not yet available.
+**Live.** The data explorer at [app.nybenchmark.org](https://app.nybenchmark.org)
+serves 661,000+ observations covering 62 cities, with ranked dashboards,
+trend charts, and derived fiscal health metrics.
 
 ## Principles
 
 - Nonpartisan and evidence-based
-- Emphasis on primary sources and citations
+- Official government data sources (OSC, Census Bureau)
 - Transparency in methods and assumptions
 - Open source by default
 
 ## Related Repositories
 
-- `nybenchmark-app` — Data collection, validation, and exploration application (planned)
+- [`nybenchmark-app`](https://github.com/BenU/nybenchmark-app) — Rails application for data import, benchmarking, and exploration
 
 ## License
 
