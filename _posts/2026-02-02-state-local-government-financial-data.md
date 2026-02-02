@@ -1,0 +1,83 @@
+---
+layout: post
+title: "The National Landscape of Local Government Financial Data Transparency"
+date: 2026-02-02
+description: "A fifty-state review of how U.S. states collect and publish local government financial data reveals a sharp divide between structured, machine-readable systems, PDF-only disclosure, and nothing at all."
+categories: [transparency, data-quality]
+tags: [open-data, state-comptroller, osc, structured-data, fifty-state-review, benchmarking]
+author: Ben Unger
+image: /assets/images/posts/state-local-government-financial-data/state-data-availability-map.png
+---
+
+People keep asking me the same question: "Why just New York?"
+
+The honest answer is that I live here.  When I started this project seven weeks ago, my plan was to manually download PDF audit reports from every city, county, town, village, district, and authority in the state, then either hand-enter the financial data myself or secure funding to have credible freelancers help me.  I spent the first several weeks doing exactly that — pulling ACFRs for cities like Yonkers and New Rochelle and seeding my database by hand.
+
+Then I got lucky.  I discovered that New York's Office of the State Comptroller had already collected all of this data and made it available for bulk download in machine-readable form.  Weeks of planned manual labor replaced by a few import scripts.  That lucky break raised an obvious follow-up question: which other states have done the same thing?
+
+## The Fifty-State Review
+
+I conducted a review of all fifty states to understand how each one collects, standardizes, and publishes local government financial information.  I used AI-assisted research tools to systematically review state comptroller sites, statutory reporting requirements, and public data portals.  The tooling dramatically accelerated discovery, but the classifications, interpretations, and conclusions are my own.
+
+What I found is a sharp structural divide that has nothing to do with political will or civic interest.  It comes down to infrastructure.
+
+## The Real Transparency Divide
+
+The key distinction is not whether data is "public" — virtually all government financial data is technically public.  The question is whether it's **structured**.
+
+In states like New York, Washington, Ohio, Indiana, and the other green states on the map below, local governments submit standardized financial data into centralized systems.  These platforms enforce uniform charts of accounts, validation rules, and consistent definitions.  Spending, debt, and fiscal health can be compared across jurisdictions with minimal manual work.
+
+In much of the country, financial disclosure still means posting standalone audit PDFs.  Try comparing per-capita police spending across 200 municipalities when each one publishes a different 300-page PDF with its own chart of accounts.  It's functionally opaque.
+
+And then there are the states that have no centralized local reporting infrastructure at all.
+
+## The Map
+
+![State classification based on centralization of local financial reporting and availability of bulk machine-readable data. Green states offer centralized, downloadable datasets comparable to New York. Yellow states offer central repositories but often in PDF format or with limited export. Red states lack centralized local reporting infrastructure.](/assets/images/posts/state-local-government-financial-data/state-data-availability-map.png)
+
+The green states have centralized, machine-readable systems.  Yellow states have central repositories but the data is often PDF-only or limited in export options.  Red states lack centralized local reporting infrastructure entirely.
+
+## The Best State Databases
+
+Among the green states, these are the standout systems.  I've ordered them roughly by how useful they are for the kind of bulk comparative analysis I'm doing:
+
+| State | Database | Notes |
+|-------|----------|-------|
+| Florida | [LOGERx](https://logerx.myfloridacfo.gov/) | First-in-the-nation XBRL mandate; the gold standard |
+| New York | [Open Book NY / FSMS](https://www.osc.ny.gov/local-government/data) | Uniform chart of accounts; bulk CSV for all local governments |
+| Utah | [Transparent Utah](https://transparent.utah.gov/) | ~1,000 entities; 250M+ records; all local governments required to submit since 2017 |
+| Washington | [Financial Intelligence Tool](https://portal.sao.wa.gov/FIT/) | ~2,000 governments; decade of data; peer comparison and fiscal health indicators |
+| Ohio | [Ohio Checkbook](https://checkbook.ohio.gov/) | Transaction-level detail down to individual checks; voluntary for local governments |
+| Indiana | [Gateway](https://gateway.ifionline.org/) | All local units; downloadable data; extensive report builder |
+| Michigan | [Community Financial Dashboard](https://micommunityfinancials.michigan.gov/) | 12+ fiscal health indicators; 16 years of data; developing its own XBRL taxonomy |
+| California | [ByTheNumbers](https://bythenumbers.sco.ca.gov/) | State Controller; 13M+ fields; cities, counties, special districts; data back to 2002 |
+| Massachusetts | [Municipal Databank](https://www.mass.gov/info-details/municipal-finance-trend-dashboard) | 65+ data elements; community comparison tool with Excel export; no bulk download |
+| West Virginia | [WV Checkbook](https://www.wvcheckbook.gov/) | OpenGov-backed; local government participation is voluntary |
+
+## Florida: The Gold Standard
+
+Florida deserves special mention.  In 2018, the state passed HB 1073 mandating that all local governments file their financial reports in [XBRL](https://en.wikipedia.org/wiki/XBRL) — the same structured data standard the SEC requires for corporate filings.  The LOGERx system went live in 2022 and remains the first and only state-level XBRL mandate for local government financials in the country.  Most other green states, including New York, publish bulk CSV or offer interactive dashboards, which is excellent for analysis but doesn't carry the semantic richness of XBRL.  If other states follow Florida's lead, a truly comprehensive national database of local government finances becomes possible.
+
+## California: A Cautionary Tale
+
+California illustrates both the promise and the fragility of transparency infrastructure.  The state's raw data is solid — the State Controller's [ByTheNumbers](https://bythenumbers.sco.ca.gov/) portal publishes 13 million+ fields of structured financial data for cities, counties, and special districts going back to 2002.  But the analytical layer that made that data accessible to non-experts is gone.  The State Auditor's High-Risk Local Government Dashboard ranked all 471 California cities on fiscal health using ten financial indicators — exactly the kind of tool that lets residents and journalists ask hard questions about how their local government is managing money.  Then in October 2023, following a change in leadership at the auditor's office, the dashboard was [quietly discontinued and scrubbed from the website](https://californiapolicycenter.org/californias-high-risk-dashboard-is-gone-without-a-trace-but-should-not-be-forgotten/).  No announcement, no archive, no explanation.
+
+This shouldn't surprise anyone.  Structured financial data invites scrutiny, and scrutiny creates pressure.  There will always be elected officials and government employees who resent having their spending decisions compared to their neighbors'.  That resentment is a feature, not a bug — it means the data is doing its job.  But it also means transparency infrastructure is perpetually at risk of being defunded, deprioritized, or quietly shut down by the very people it's designed to hold accountable.
+
+The problem is compounded by the [collapse of local news](https://localnewsinitiative.northwestern.edu/projects/state-of-local-news/) across the country and around the world.  When California killed its dashboard, there was barely anyone left to notice.  The [California Policy Center](https://californiapolicycenter.org/dashboard-launch/), a good-government nonprofit, has since built a replacement — but civic projects come and go, and the underlying data should never depend on one organization's funding or interest.  The episode illustrates why transparency infrastructure needs to be grounded in statutory mandate — like Florida's XBRL requirement — rather than left to the discretion of whoever happens to hold office.  Dashboards built on political goodwill can disappear the moment that goodwill changes.
+
+The variation across these systems is significant — in format, granularity, whether participation is mandatory, and how easy they make bulk access.
+
+## Why I Started with New York
+
+I started in New York because I live here, but it turns out I also stumbled into one of the best data environments in the country.  The OSC collects granular, standardized data from every local government and publishes it in bulk, machine-readable form.  New York isn't the only state with this kind of infrastructure — Florida, Utah, Washington, and several others are in the same league or better — but it's the one I know, and the data was good enough to build on.
+
+## Where This Goes Next
+
+There's no reason this project should stay limited to New York.  Every green state on the map above has the data infrastructure to support the same kind of cross-jurisdictional benchmarking I'm doing now.  Washington, Ohio, Indiana, Michigan — these states are ready for the same treatment, and expanding to cover them is a medium-term goal.
+
+For the yellow and red states, I hope this analysis is useful in a different way.  The gap between "we publish audit PDFs" and "we have a centralized, structured reporting system" is the gap between nominal transparency and functional transparency.  States that close that gap don't just help researchers and civic tech projects — they give their own residents, journalists, and policymakers the ability to ask basic comparative questions about how their tax dollars are being spent.  Every state should aspire to be green on this map.
+
+The absence of structured data is the main reason civic technology projects so often stall outside a handful of states.  Identifying where high-quality data already exists is the first step toward scalable, cross-jurisdictional accountability.
+
+Live benchmarking work based on this analysis is available at [app.nybenchmark.org](https://app.nybenchmark.org).
