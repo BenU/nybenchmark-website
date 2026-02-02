@@ -14,9 +14,13 @@ plugins:
   - jekyll-sitemap
 
 url: "https://nybenchmark.org"
+permalink: /:year/:month/:day/:title:output_ext
 
 defaults:
   - scope:
       path: ""
     values:
       image: /assets/images/og-default.png
+
+# Site-level fallback for jekyll-seo-tag (defaults block alone is not sufficient)
+image: /assets/images/og-default.png
