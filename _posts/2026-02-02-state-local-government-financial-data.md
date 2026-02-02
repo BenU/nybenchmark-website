@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "The National Landscape of Local Government Financial Data Transparency"
+title: "144 Million Americans Live in States With Transparent Local Government Finances"
 date: 2026-02-02
-description: "A fifty-state review of how U.S. states collect and publish local government financial data reveals a sharp divide between structured, machine-readable systems, PDF-only disclosure, and nothing at all."
+description: "A fifty-state review of how local government financial data is collected, structured, and published reveals that 43% of Americans live in states with machine-readable financial data — and the other 57% are largely in the dark."
 categories: [transparency, data-quality]
 tags: [open-data, state-comptroller, osc, structured-data, fifty-state-review, benchmarking]
 author: Ben Unger
 image: /assets/images/posts/state-local-government-financial-data/state-data-availability-map.png
 ---
 
-People keep asking me the same question: "Why just New York?"
+*A fifty-state review of how local government financial data is collected, structured, and published*
 
-The honest answer is that I live here.  When I started this project seven weeks ago, my plan was to manually download PDF audit reports from every city, county, town, village, district, and authority in the state, then either hand-enter the financial data myself or secure funding to have credible freelancers help me.  I spent the first several weeks doing exactly that — pulling ACFRs for cities like Yonkers and New Rochelle and seeding my database by hand.
+I started this project in New York because I live here.  Later, I wanted to know: how many other states have the same kind of data?
+
+When I started seven weeks ago, my plan was to manually download PDF audit reports from every city, county, town, village, district, and authority in the state, then either hand-enter the financial data myself or secure funding to have credible freelancers help me.  I spent the first several weeks doing exactly that — pulling ACFRs for cities like Yonkers and New Rochelle and seeding my database by hand.
 
 Then I got lucky.  I discovered that New York's Office of the State Comptroller had already collected all of this data and made it available for bulk download in machine-readable form.  Weeks of planned manual labor replaced by a few import scripts.  That lucky break raised an obvious follow-up question: which other states have done the same thing?
 
@@ -37,6 +39,10 @@ And then there are the states that have no centralized local reporting infrastru
 
 The green states have centralized, machine-readable systems.  Yellow states have central repositories but the data is often PDF-only or limited in export options.  Red states lack centralized local reporting infrastructure entirely.
 
+## 144 Million Americans Can See How Their Tax Dollars Are Spent
+
+Those twelve green states are home to nearly 144 million people — **over 43% of the country** according to the 2020 Census.  That's how many Americans already live in states where structured local government financial data exists and bulk comparative analysis is possible.  The other 57% are largely in the dark.
+
 ## The Best State Databases
 
 Among the green states, these are the standout systems.  I've ordered them roughly by how useful they are for the kind of bulk comparative analysis I'm doing:
@@ -51,6 +57,8 @@ Among the green states, these are the standout systems.  I've ordered them rough
 | Indiana | [Gateway](https://gateway.ifionline.org/) | All local units; downloadable data; extensive report builder |
 | Michigan | [Community Financial Dashboard](https://micommunityfinancials.michigan.gov/) | 12+ fiscal health indicators; 16 years of data; developing its own XBRL taxonomy |
 | California | [ByTheNumbers](https://bythenumbers.sco.ca.gov/) | State Controller; 13M+ fields; cities, counties, special districts; data back to 2002 |
+| North Carolina | [LGC Data & Reports](https://www.nctreasurer.gov/divisions/state-and-local-government-finance/lgc/data-and-reports) | Legislatively mandated since 2015; counties and municipalities; benchmarking tool |
+| Connecticut | [Municipal Fiscal Indicators](https://portal.ct.gov/OPM/IGP-MUNFINS/Municipal-Financial-Services/Municipal-Finance-Home-Page) | All 169 municipalities; structured budget data on [data.ct.gov](https://data.ct.gov/) |
 | Massachusetts | [Municipal Databank](https://www.mass.gov/info-details/municipal-finance-trend-dashboard) | 65+ data elements; community comparison tool with Excel export; no bulk download |
 | West Virginia | [WV Checkbook](https://www.wvcheckbook.gov/) | OpenGov-backed; local government participation is voluntary |
 
@@ -67,10 +75,6 @@ This shouldn't surprise anyone.  Structured financial data invites scrutiny, and
 The problem is compounded by the [collapse of local news](https://localnewsinitiative.northwestern.edu/projects/state-of-local-news/) across the country and around the world.  When California killed its dashboard, there was barely anyone left to notice.  The [California Policy Center](https://californiapolicycenter.org/dashboard-launch/), a good-government nonprofit, has since built a replacement — but civic projects come and go, and the underlying data should never depend on one organization's funding or interest.  The episode illustrates why transparency infrastructure needs to be grounded in statutory mandate — like Florida's XBRL requirement — rather than left to the discretion of whoever happens to hold office.  Dashboards built on political goodwill can disappear the moment that goodwill changes.
 
 The variation across these systems is significant — in format, granularity, whether participation is mandatory, and how easy they make bulk access.
-
-## Why I Started with New York
-
-I started in New York because I live here, but it turns out I also stumbled into one of the best data environments in the country.  The OSC collects granular, standardized data from every local government and publishes it in bulk, machine-readable form.  New York isn't the only state with this kind of infrastructure — Florida, Utah, Washington, and several others are in the same league or better — but it's the one I know, and the data was good enough to build on.
 
 ## Where This Goes Next
 
