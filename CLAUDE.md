@@ -79,6 +79,33 @@ https://github.com/BenU/nybenchmark-website/actions
 
 After deploying new posts, request indexing in Google Search Console via URL Inspection.
 
+## Post-Deploy Verification
+
+After pushing to `main`, verify the deploy succeeded and changes are live. Cloudflare CDN may serve stale content briefly after a build completes.
+
+1. **Confirm build succeeded:**
+   ```bash
+   gh api repos/BenU/nybenchmark-website/actions/runs --jq '.workflow_runs[0] | {status, conclusion, head_sha: .head_sha[:7]}'
+   ```
+
+2. **Verify affected pages return 200** (check homepage + any pages that were added or changed):
+   ```bash
+   curl -s -o /dev/null -w "%{http_code}" https://nybenchmark.org/
+   curl -s -o /dev/null -w "%{http_code}" https://nybenchmark.org/<path-to-changed-page>
+   ```
+
+3. **Spot-check meta tags** on any page where front matter, `_config.yml`, or `custom-head.html` changed:
+   ```bash
+   curl -s https://nybenchmark.org/<path> | grep -E 'og:(title|description|image|url|type)|twitter:(card|image)'
+   ```
+
+4. **Verify homepage links** if posts were added, removed, or renamed:
+   ```bash
+   curl -s https://nybenchmark.org/ | grep -o 'href="[^"]*"'
+   ```
+
+Use `WebFetch` sparingly for meta tag checks -- it strips `<head>` content during markdown conversion. Use `curl` via Bash instead.
+
 ## Known Issues
 
 - Duplicate `WebSite` Schema.org block on homepage (one from `jekyll-seo-tag`, one from `custom-head.html`)
