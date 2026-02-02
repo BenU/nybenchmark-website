@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # Claude Code Context
 
 This file provides essential context for Claude Code sessions working on the NY Benchmarking Project blog/marketing site.
