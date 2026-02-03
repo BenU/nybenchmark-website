@@ -116,6 +116,11 @@ Use `WebFetch` sparingly for meta tag checks -- it strips `<head>` content durin
 - `jekyll-seo-tag` renders author as `@type: Person` but config value `"New York Benchmarking Project"` is an organization
 - No Twitter/X account configured (`twitter:site` tag is absent)
 
+## TODO
+
+1. [ ] **Verify deploy** — Confirm the fifty-state review post is live at `https://nybenchmark.org/2026/02/02/state-local-government-financial-data.html` once GitHub Actions recovers from the 2/2/2026 outage. Run post-deploy verification steps above.
+2. [ ] **Request GSC indexing** — Submit the new post URL in Google Search Console via URL Inspection after deploy is confirmed.
+
 ## Companion Repo
 
 The Rails data application lives at `../nybenchmark-app`. See its `CLAUDE.md` for development context, domain rules, and TODO list. Changes to the app require Docker, feature branches, CI (`dci`), and Kamal deploy.
