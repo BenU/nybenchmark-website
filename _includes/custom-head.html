@@ -1,3 +1,55 @@
+<style>
+.post-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.post-list .post-thumbnail {
+  width: 64px !important;
+  max-width: 64px !important;
+  height: auto;
+  border-radius: 3px;
+}
+.post-list .post-thumbnail-link {
+  flex: 0 0 64px;
+  width: 64px;
+  display: block;
+}
+.post-list-content {
+  flex: 1;
+  min-width: 0;
+}
+.post-list-content h3 {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  .post-list-item {
+    flex-direction: column;
+  }
+  .post-list .post-thumbnail {
+    width: 100% !important;
+    max-width: 200px !important;
+  }
+  .post-list .post-thumbnail-link {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+.post-share {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e8e8e8;
+  font-size: 0.9rem;
+}
+.post-share-label {
+  color: #828282;
+  margin-right: 0.5rem;
+}
+.post-share a {
+  margin-right: 0.75rem;
+}
+</style>
+
 <!-- Schema.org JSON-LD for LLM and search engine discovery -->
 <script type="application/ld+json">
 {

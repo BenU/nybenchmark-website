@@ -11,6 +11,8 @@ image: /assets/images/posts/state-local-government-financial-data/state-data-ava
 
 *A fifty-state review of how local government financial data is collected, structured, and published*
 
+![State classification based on centralization of local financial reporting and availability of bulk machine-readable data. Green states offer centralized, downloadable datasets comparable to New York. Yellow states offer central repositories but often in PDF format or with limited export. Red states lack centralized local reporting infrastructure.](/assets/images/posts/state-local-government-financial-data/state-data-availability-map.png)
+
 I started this project in New York because I live here.  Later, I wanted to know: how many other states have the same kind of data?
 
 When I started seven weeks ago, my plan was to manually download PDF audit reports from every city, county, town, village, district, and authority in the state, then either hand-enter the financial data myself or secure funding to have credible freelancers help me.  I spent the first several weeks doing exactly that — pulling ACFRs for cities like Yonkers and New Rochelle and seeding my database by hand.
@@ -32,10 +34,6 @@ In states like New York, Washington, Ohio, Indiana, and the other green states o
 In much of the country, financial disclosure still means posting standalone audit PDFs.  Try comparing per-capita police spending across 200 municipalities when each one publishes a different 300-page PDF with its own chart of accounts.  It's functionally opaque.
 
 And then there are the states that have no centralized local reporting infrastructure at all.
-
-## The Map
-
-![State classification based on centralization of local financial reporting and availability of bulk machine-readable data. Green states offer centralized, downloadable datasets comparable to New York. Yellow states offer central repositories but often in PDF format or with limited export. Red states lack centralized local reporting infrastructure.](/assets/images/posts/state-local-government-financial-data/state-data-availability-map.png)
 
 The green states have centralized, machine-readable systems.  Yellow states have central repositories but the data is often PDF-only or limited in export options.  Red states lack centralized local reporting infrastructure entirely.
 
