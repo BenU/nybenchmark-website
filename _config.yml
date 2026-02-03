@@ -15,6 +15,7 @@ plugins:
   - jekyll-sitemap
 
 url: "https://nybenchmark.org"
+google_analytics: G-LQDC8ED7J6
 permalink: /:year/:month/:day/:title:output_ext
 
 defaults:
