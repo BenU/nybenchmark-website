@@ -118,8 +118,8 @@ Use `WebFetch` sparingly for meta tag checks -- it strips `<head>` content durin
 
 ## TODO
 
-1. [ ] **Verify deploy** — Confirm the fifty-state review post is live at `https://nybenchmark.org/2026/02/02/state-local-government-financial-data.html` once GitHub Actions recovers from the 2/2/2026 outage. Run post-deploy verification steps above.
-2. [ ] **Request GSC indexing** — Submit the new post URL in Google Search Console via URL Inspection after deploy is confirmed.
+1. [x] **Verify deploy** — Fifty-state review post confirmed live at `https://nybenchmark.org/2026/02/02/state-local-government-financial-data.html`. GitHub Actions outage resolved by pushing an empty commit to retrigger the build.
+2. [x] **Request GSC indexing** — New post URL submitted in Google Search Console via URL Inspection.
 
 ## Companion Repo
 
