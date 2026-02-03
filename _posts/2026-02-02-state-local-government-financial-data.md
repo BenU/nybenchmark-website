@@ -30,17 +30,17 @@ Then I got lucky.  I discovered that New York's Office of the State Comptroller 
 
 ## The Fifty-State Review
 
-I conducted a review of all fifty states to understand how each one collects, standardizes, and publishes local government financial information.  I used AI-assisted research tools to systematically review state comptroller sites, statutory reporting requirements, and public data portals.  The tooling dramatically accelerated discovery, but the classifications, interpretations, and conclusions are my own.
+I conducted a review of all fifty states to understand how each one collects, standardizes, and publishes local government financial information.  I used Google Gemini's Deep Research to systematically review state comptroller sites, statutory reporting requirements, and public data portals.  The tooling dramatically accelerated discovery, but the classifications, interpretations, and conclusions are my own.
 
-What I found is a sharp structural divide that has nothing to do with political will or civic interest.  It comes down to infrastructure.
+What I found is a sharp structural divide in how different states consider, collect and make available local government financial data.
 
 ## The Real Transparency Divide
 
 The key distinction is not whether data is "public" — virtually all government financial data is technically public.  The question is whether it's **structured**.
 
-In states like New York, Washington, Ohio, Indiana, and the other green states on the map below, local governments submit standardized financial data into centralized systems.  These platforms enforce uniform charts of accounts, validation rules, and consistent definitions.  Spending, debt, and fiscal health can be compared across jurisdictions with minimal manual work.
+In states like New York, Washington, Ohio, Indiana, and the other green states on the map above, local governments submit standardized financial data into centralized systems.  These platforms enforce uniform charts of accounts, validation rules, and consistent definitions.  Spending, debt, and fiscal health can be compared across jurisdictions with minimal manual work.
 
-In much of the country, financial disclosure still means posting standalone audit PDFs.  Try comparing per-capita police spending across 200 municipalities when each one publishes a different 300-page PDF with its own chart of accounts.  It's functionally opaque.
+Unfortunately, in much of the country, financial disclosure still means posting standalone audit PDFs.  Try comparing per-capita police spending across 200 municipalities when each one publishes a different 300-page PDF with its own chart of accounts.  It's functionally opaque.
 
 And then there are the states that have no centralized local reporting infrastructure at all.
 
@@ -48,11 +48,11 @@ The green states have centralized, machine-readable systems.  Yellow states have
 
 ## 144 Million Americans Can See How Their Tax Dollars Are Spent
 
-Those twelve green states are home to nearly 144 million people — **over 43% of the country** according to the 2020 Census.  That's how many Americans already live in states where structured local government financial data exists and bulk comparative analysis is possible.  The other 57% are largely in the dark.
+The good news is that those twelve green states are home to nearly 144 million people — **over 43% of the country** according to the 2020 Census.  That's how many Americans currently live in states where structured local government financial data exists and bulk comparative analysis is possible.  The other 57% are largely in the dark.
 
 ## The Best State Databases
 
-Among the green states, these are the standout systems.  I've ordered them roughly by how useful they are for the kind of bulk comparative analysis I'm doing:
+see below for more links and details about the best state local government financial dtabases.  I've ordered them roughly by how useful they are for the kind of bulk comparative analysis I'm doing:
 
 | State | Database | Notes |
 |-------|----------|-------|
@@ -75,7 +75,7 @@ Florida deserves special mention.  In 2018, the state passed HB 1073 mandating t
 
 ## California: A Cautionary Tale
 
-California illustrates both the promise and the fragility of transparency infrastructure.  The state's raw data is solid — the State Controller's [ByTheNumbers](https://bythenumbers.sco.ca.gov/) portal publishes 13 million+ fields of structured financial data for cities, counties, and special districts going back to 2002.  But the analytical layer that made that data accessible to non-experts is gone.  The State Auditor's High-Risk Local Government Dashboard ranked all 471 California cities on fiscal health using ten financial indicators — exactly the kind of tool that lets residents and journalists ask hard questions about how their local government is managing money.  Then in October 2023, following a change in leadership at the auditor's office, the dashboard was [quietly discontinued and scrubbed from the website](https://californiapolicycenter.org/californias-high-risk-dashboard-is-gone-without-a-trace-but-should-not-be-forgotten/).  No announcement, no archive, no explanation.
+California illustrates both the promise and the fragility of transparency infrastructure.  The state's raw data is solid — the State Controller's [ByTheNumbers](https://bythenumbers.sco.ca.gov/) portal publishes 13 million+ fields of structured financial data for cities, counties, and special districts going back to 2002.  Up until very recently they had a [NYBenchmark-like](https://app.nybenchmark.org) analytical layer that made that highlighted at risk governments and made the data more accessible to non-experts.  The State Auditor's High-Risk Local Government Dashboard ranked all 471 California cities on fiscal health using ten financial indicators — exactly the kind of tool that lets residents and journalists ask hard questions about how their local government is managing money.  Then in October 2023, following a change in leadership at the auditor's office, the dashboard was [quietly discontinued and scrubbed from the website](https://californiapolicycenter.org/californias-high-risk-dashboard-is-gone-without-a-trace-but-should-not-be-forgotten/).  No announcement, no archive, no explanation.
 
 This shouldn't surprise anyone.  Structured financial data invites scrutiny, and scrutiny creates pressure.  There will always be elected officials and government employees who resent having their spending decisions compared to their neighbors'.  That resentment is a feature, not a bug — it means the data is doing its job.  But it also means transparency infrastructure is perpetually at risk of being defunded, deprioritized, or quietly shut down by the very people it's designed to hold accountable.
 
@@ -91,4 +91,4 @@ For the yellow and red states, I hope this analysis is useful in a different way
 
 The absence of structured data is the main reason civic technology projects so often stall outside a handful of states.  Identifying where high-quality data already exists is the first step toward scalable, cross-jurisdictional accountability.
 
-Live benchmarking work based on this analysis is available at [app.nybenchmark.org](https://app.nybenchmark.org).
+Live New York benchmarking work based on this analysis is available at [app.nybenchmark.org](https://app.nybenchmark.org).
