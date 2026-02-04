@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "144 Million Americans Live in States With Transparent Local Government Finances"
+title: "145 Million Americans Live in States With Transparent Local Government Finances"
 date: 2026-02-02
-last_modified_at: 2026-02-02
+last_modified_at: 2026-02-03
 description: "A fifty-state review of how local government financial data is collected, structured, and published reveals that 43% of Americans live in states with machine-readable financial data — and the other 57% are largely in the dark."
 categories: [transparency, data-quality]
 tags: [open-data, state-comptroller, osc, structured-data, fifty-state-review, benchmarking]
@@ -46,9 +46,11 @@ And then there are the states that have no centralized local reporting infrastru
 
 The green states have centralized, machine-readable systems.  Yellow states have central repositories but the data is often PDF-only or limited in export options.  Red states lack centralized local reporting infrastructure entirely.
 
-## 144 Million Americans Can See How Their Tax Dollars Are Spent
+## 145 Million Americans Can See How Their Tax Dollars Are Spent
 
-The good news is that those twelve green states are home to nearly 144 million people — **over 43% of the country** according to the 2020 Census.  That's how many Americans currently live in states where structured local government financial data exists and bulk comparative analysis is possible.  The other 57% are largely in the dark.
+The good news is that those twelve green states are home to over 145 million people — **nearly 44% of the country** according to the 2020 Census.  That's how many Americans currently live in states where structured local government financial data exists and bulk comparative analysis is possible.  The other 56% are largely in the dark.
+
+Those local governments collectively spent approximately **$1.18 trillion** in FY 2022, according to the U.S. Census Bureau's [Annual Survey of State and Local Government Finances](https://www.census.gov/programs-surveys/gov-finances.html) — a massive share of public spending that, in these twelve states, can actually be tracked and compared.
 
 ## The Best State Databases
 
@@ -67,7 +69,7 @@ see below for more links and details about the best state local government finan
 | North Carolina | [LGC Data & Reports](https://www.nctreasurer.gov/divisions/state-and-local-government-finance/lgc/data-and-reports) | Legislatively mandated since 2015; counties and municipalities; benchmarking tool |
 | Connecticut | [Municipal Fiscal Indicators](https://portal.ct.gov/OPM/IGP-MUNFINS/Municipal-Financial-Services/Municipal-Finance-Home-Page) | All 169 municipalities; structured budget data on [data.ct.gov](https://data.ct.gov/) |
 | Massachusetts | [Municipal Databank](https://www.mass.gov/info-details/municipal-finance-trend-dashboard) | 65+ data elements; community comparison tool with Excel export; no bulk download |
-| West Virginia | [WV Checkbook](https://www.wvcheckbook.gov/) | OpenGov-backed; local government participation is voluntary |
+| Iowa | [data.iowa.gov](https://data.iowa.gov/) / [City Budget Explorer](https://city-budget-explorer.iowa.gov/) | Mandatory (Iowa Code Ch. 24); ~1,800 entities; CSV, JSON, and API via Socrata |
 
 ## Florida: The Gold Standard
 
