@@ -10,7 +10,7 @@ counties, and special districts — making it easy to compare how they
 raise and spend public money.
 
 The project imports bulk data from the NYS Office of the State
-Comptroller (61 cities, 30 years of financial data) and the U.S.
+Comptroller (61 cities, financial data since 1995) and the U.S.
 Census Bureau (population, income, poverty), then computes derived
 metrics and comparative rankings. Individual city ACFRs are consulted
 for quality assurance and validation, not primary data entry.

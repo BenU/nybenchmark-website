@@ -15,11 +15,11 @@ For a more detailed technical discussion, see the [Methodology page on the app](
 
 The [OSC](https://www.osc.ny.gov/local-government/data) collects standardized Annual Financial Reports from local governments across New York State. This is an invaluable public resource — the Comptroller's office does the hard work of defining reporting standards and gathering data from thousands of jurisdictions.
 
-NY Benchmark imports OSC data for all 61 cities that file with the Comptroller. (NYC has its own Comptroller and publishes its data separately through [Checkbook NYC](https://www.checkbooknyc.com).) The dataset currently spans **1995 through 2024** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **647,000 individual observations**.
+NY Benchmark imports OSC data for all 61 cities that file with the Comptroller. (NYC has its own Comptroller and publishes its data separately through [Checkbook NYC](https://www.checkbooknyc.com).) The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **647,000 individual observations**.
 
 ### U.S. Census Bureau
 
-Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates, covering 2012 through 2023 — over **14,000 observations** across 62 cities.
+Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates, covering **2012 through the present** — over **14,000 observations** across 62 cities.
 
 ### NYC Checkbook (planned)
 
@@ -33,7 +33,7 @@ NY Benchmark transforms this data into something comparable:
 
 - **Derived metrics** — Fund Balance as a % of Expenditures, Debt Service as a % of Expenditures, Per-Capita Spending — that distill complex financial statements into numbers you can compare across cities of different sizes.
 - **Fund normalization** — An all-fund approach that includes spending from General, Water, Sewer, Highway, and other funds while excluding custodial pass-throughs (Trust & Agency fund) and interfund transfers that would otherwise double-count or inflate totals.
-- **Trend charts** — 30 years of data visualized per city, so you can see trajectories, not just snapshots.
+- **Trend charts** — Data since 1995 visualized per city, so you can see trajectories, not just snapshots.
 - **Rankings** — Cities ranked on key fiscal health metrics, surfacing both best practices and outliers.
 
 ### Coming soon
