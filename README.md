@@ -3,7 +3,7 @@
 **Civic reform through benchmarking.**
 
 This repository contains the public-facing website and blog for the
-New York Benchmarking Project, an open-source effort to benchmark
+New York Benchmarking Project, an effort to benchmark
 financial and demographic data across New York State's local
 governments — starting with 62 cities and expanding to towns, villages,
 counties, and special districts — making it easy to compare how they
@@ -18,7 +18,7 @@ for quality assurance and validation, not primary data entry.
 ## Status
 
 **Live.** The data explorer at [app.nybenchmark.org](https://app.nybenchmark.org)
-serves 661,000+ observations covering 62 cities, with ranked dashboards,
+serves 2.1 million+ observations covering 62 cities, with ranked dashboards,
 trend charts, and derived fiscal health metrics.
 
 ## Principles
@@ -26,7 +26,7 @@ trend charts, and derived fiscal health metrics.
 - Nonpartisan and evidence-based
 - Official government data sources (OSC, Census Bureau)
 - Transparency in methods and assumptions
-- Open source by default
+- Accessible by default
 
 ## Related Repositories
 

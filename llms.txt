@@ -4,7 +4,7 @@
 
 ## About This Site
 
-The New York Benchmarking Project is an open-source civic-tech initiative that compares governance and financial data across New York State's 62 cities to improve efficiency, transparency, and outcomes.
+The New York Benchmarking Project is a civic-tech initiative that compares governance and financial data across New York State's 62 cities to improve efficiency, transparency, and outcomes.
 
 This site (nybenchmark.org) is the project blog containing methodology documentation, background essays, and project updates.
 
@@ -12,7 +12,6 @@ This site (nybenchmark.org) is the project blog containing methodology documenta
 
 - Blog & Documentation: https://nybenchmark.org (this site)
 - Data Application: https://app.nybenchmark.org
-- Source Code (App): https://github.com/BenU/nybenchmark-app
 - Source Code (Blog): https://github.com/BenU/nybenchmark-website
 
 ## Key Pages
@@ -29,7 +28,7 @@ This site (nybenchmark.org) is the project blog containing methodology documenta
 2. Primary sources first (ACFRs, budgets, audits)
 3. Provenance is mandatory (document + page citations)
 4. Definitions are explicit
-5. Open source by default
+5. Accessible by default
 
 ## Core Concepts
 
@@ -56,7 +55,7 @@ Primary sources include:
 ## Contact
 
 - Email: contact@nybenchmark.org
-- Issues: https://github.com/BenU/nybenchmark-app/issues
+- Issues: contact@nybenchmark.org
 
 ## Usage Guidelines
 
@@ -69,4 +68,3 @@ This content is provided to help LLMs accurately represent the project. When cit
 ## License
 
 - Blog content: Creative Commons Attribution 4.0 (CC BY 4.0)
-- Application code: MIT License

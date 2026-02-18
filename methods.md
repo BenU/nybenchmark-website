@@ -70,6 +70,8 @@ Raw numbers can mislead. Per-capita normalization is a start, but meaningful ben
 
 ## Corrections and contributions
 
-This project is open source. If you believe a metric is incorrect or ambiguous, please open an issue on [GitHub](https://github.com/BenU/nybenchmark-app) with the city, fiscal year, specific metric, and a citation to the relevant source.
+If you believe a metric is incorrect or ambiguous, please email [contact@nybenchmark.org](mailto:contact@nybenchmark.org) with the city, fiscal year, specific metric, and a citation to the relevant source.
 
 Methods will evolve as the dataset grows; changes will be documented publicly.
+
+{% include cta-banner.html %}

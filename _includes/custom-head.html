@@ -48,6 +48,167 @@
 .post-share a {
   margin-right: 0.75rem;
 }
+
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.stats-bar .stat {
+  text-align: center;
+}
+.stats-bar .stat-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a5276;
+}
+.stats-bar .stat-label {
+  font-size: 0.8rem;
+  color: #828282;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+@media (max-width: 600px) {
+  .stats-bar {
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+  }
+}
+
+/* CTA section */
+.cta-section {
+  margin: 2rem 0;
+}
+.cta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cta-card {
+  display: block;
+  padding: 1.1rem 1.25rem;
+  border: 2px solid #1a5276;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+.cta-card:hover {
+  background-color: #1a5276;
+  color: #fff;
+  text-decoration: none;
+}
+.cta-card:hover .cta-desc {
+  color: #d5e8f0;
+}
+.cta-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.cta-desc {
+  font-size: 0.85rem;
+  color: #606060;
+  margin: 0;
+  transition: color 0.15s;
+}
+.cta-primary {
+  grid-column: 1 / -1;
+  background-color: #1a5276;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+.cta-primary:visited {
+  color: #fff;
+}
+.cta-primary:hover {
+  background-color: #2980b9;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 600px) {
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Page CTA banner — bottom of content pages */
+.page-cta-banner {
+  margin: 2.5rem 0 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f0f6fa;
+  border: 1px solid #d0dfe8;
+  border-radius: 6px;
+}
+.page-cta-link {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #1a5276;
+  text-decoration: none;
+}
+.page-cta-link:hover {
+  color: #154360;
+  text-decoration: underline;
+}
+
+/* Footer styling */
+.footer-tagline {
+  font-style: italic;
+  color: #828282;
+  margin-bottom: 0.5rem;
+}
+.footer-col-heading {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #424242;
+  margin-bottom: 0.5rem;
+}
+.footer-links {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.footer-links li {
+  margin-bottom: 0.25rem;
+}
+.footer-links a {
+  color: #828282;
+  font-size: 0.9rem;
+}
+.footer-links a:hover {
+  color: #1a5276;
+}
+
+/* Site-wide heading accent color */
+.post-content h2,
+.post-content h3 {
+  color: #1a5276;
+}
+
+/* Blog post styling refinements */
+.post-title {
+  color: #1a5276;
+}
+.page-heading {
+  color: #1a5276;
+}
 </style>
 
 <!-- Schema.org JSON-LD for LLM and search engine discovery -->
@@ -58,7 +219,7 @@
   "name": "New York Benchmarking Project",
   "alternateName": "NY Benchmark",
   "url": "https://nybenchmark.org",
-  "description": "Civic reform through benchmarking. An open-source project comparing governance and financial data across New York State's 62 cities.",
+  "description": "Civic reform through benchmarking. A project comparing governance and financial data across New York State's 62 cities.",
   "publisher": {
     "@type": "Organization",
     "name": "New York Benchmarking Project",
@@ -85,7 +246,7 @@
   "@type": "Organization",
   "name": "New York Benchmarking Project",
   "url": "https://nybenchmark.org",
-  "description": "An open-source civic-tech initiative comparing governance and financial data across New York State local governments.",
+  "description": "A civic-tech initiative comparing governance and financial data across New York State local governments.",
   "foundingDate": "2025",
   "knowsAbout": [
     "Municipal finance",
@@ -116,7 +277,6 @@
     "@type": "Organization",
     "name": "New York Benchmarking Project"
   },
-  "license": "https://opensource.org/licenses/MIT",
-  "codeRepository": "https://github.com/BenU/nybenchmark-app"
+  "codeRepository": "https://github.com/BenU/nybenchmark-website"
 }
 </script>

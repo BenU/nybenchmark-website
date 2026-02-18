@@ -80,7 +80,7 @@ The New York Benchmarking Project aims to:
 3. **Explain methods and assumptions transparently**, so conclusions can be challenged and improved.
 4. **Support civic education**, public discussion, and evidence-based reform.
 
-All work is open source.
+All work is intended to be transparent and verifiable.
 All claims are intended to be traceable.
 
 ---

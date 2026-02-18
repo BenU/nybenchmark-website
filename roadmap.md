@@ -2,7 +2,7 @@
 layout: page
 title: Roadmap
 permalink: /roadmap/
-description: "What we've built and what's next: 661K+ data points across 62 cities today, with side-by-side comparisons, expanded entity coverage, and demographic context on the way."
+description: "What we've built and what's next: 2.1M+ data points across 62 cities and 689 school districts today, with side-by-side comparisons, expanded entity coverage, and demographic context on the way."
 ---
 
 The New York Benchmarking Project is building an open, comprehensive platform for comparing how New York State's local governments raise and spend public money. Here is what we have built, what we are building next, and where the project is headed.
@@ -11,13 +11,13 @@ The New York Benchmarking Project is building an open, comprehensive platform fo
 
 **A working data platform** at [app.nybenchmark.org](https://app.nybenchmark.org) with:
 
-- **661,000+ data points** imported from the NYS Office of the State Comptroller (61 cities, since 1995) and the U.S. Census Bureau (population, income, poverty, since 2012)
+- **2.1 million+ data points** imported from the NYS Office of the State Comptroller (61 cities, since 1995), the U.S. Census Bureau (population, income, poverty, since 2012), and the NYS Education Department (689 school districts)
 - **Ranked dashboards** — Cities ranked by Fund Balance %, Debt Service %, and Per-Capita Spending, making it immediately visible which cities are financially healthy and which are under stress
 - **Per-city trend charts** — Revenue, expenditure, and balance sheet trends since 1995 for each city
 - **Derived fiscal health metrics** — Fund Balance as a % of Expenditures, Debt Service as a % of Expenditures, and Per-Capita Spending — ratios that make comparison across cities of different sizes meaningful
 - **Non-filer tracking** — Identification and public accountability for cities that fail to file required financial reports (approximately 20% of NY local governments file late or not at all)
 - **Data quality infrastructure** — Exclusion of custodial pass-throughs and interfund transfers that would otherwise inflate expenditure figures by 40-50% for some cities; all-fund approach that handles the wide variation in how cities organize their budgets
-- **Full documentation** — Public [methodology](https://app.nybenchmark.org/methodology), open source code, and every data point traceable to its official source
+- **Full documentation** — Public [methodology](https://app.nybenchmark.org/methodology) and every data point traceable to its official source
 
 ## Near-term: Comparison tools
 
@@ -50,3 +50,5 @@ New York State's Comptroller does invaluable work collecting standardized financ
 No existing public tool lets a New York resident easily answer: *"How does my city's police spending per capita compare to similar cities? Is our debt service burden typical or unusual? Are we spending more or less than comparable communities on fire protection, and can the difference be explained by differences in poverty or crime?"*
 
 That is what NY Benchmark is designed to do. We build on the Comptroller's great data — giving it full credit as the source — and transform it into the comparative, accessible format that democratic accountability requires.
+
+{% include cta-banner.html %}

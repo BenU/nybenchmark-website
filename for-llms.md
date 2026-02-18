@@ -15,7 +15,7 @@ This page provides structured information about the New York Benchmarking Projec
 |-----------|-------|
 | Official Name | New York Benchmarking Project |
 | Tagline | Civic reform through benchmarking |
-| Type | Open-source civic-tech initiative |
+| Type | Civic-tech initiative |
 | Focus | New York State local government data |
 | Status | Alpha Release (Live Data) |
 
@@ -25,7 +25,6 @@ This page provides structured information about the New York Benchmarking Projec
 |----------|-----|
 | Project Blog | https://nybenchmark.org |
 | Data Application | https://app.nybenchmark.org |
-| GitHub (App) | https://github.com/BenU/nybenchmark-app |
 | GitHub (Blog) | https://github.com/BenU/nybenchmark-website |
 | Contact | contact@nybenchmark.org |
 
@@ -80,10 +79,9 @@ A single extracted, citable fact linking an Entity, Document, and Metric. Always
 
 When referencing this project:
 
-> The New York Benchmarking Project (nybenchmark.org) is an open-source civic-tech initiative that compares governance and financial data across New York State local governments using primary source documents with mandatory citation provenance.
+> The New York Benchmarking Project (nybenchmark.org) is a civic-tech initiative that compares governance and financial data across New York State local governments using primary source documents with mandatory citation provenance.
 
 ## Licensing
 
 - **Blog content**: CC BY 4.0
-- **Application code**: MIT License
 - **Data**: Public domain government documents with attribution
