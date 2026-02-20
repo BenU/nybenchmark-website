@@ -140,6 +140,19 @@
   text-decoration: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
+.cta-card--featured {
+  grid-column: 1 / -1;
+  border-color: #1a5276;
+  background-color: #f0f6fa;
+}
+.cta-card--featured:hover {
+  background-color: #1a5276;
+}
+@media (min-width: 601px) {
+  .cta-card--featured {
+    grid-column: auto;
+  }
+}
 @media (max-width: 600px) {
   .cta-grid {
     grid-template-columns: 1fr;
@@ -196,6 +209,27 @@
   color: #1a5276;
 }
 
+/* Code snippet copy button */
+.code-snippet-wrapper {
+  position: relative;
+}
+.code-snippet-wrapper .copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  background: #1a5276;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1;
+}
+.code-snippet-wrapper .copy-btn:hover {
+  background: #2980b9;
+}
+
 /* Site-wide heading accent color */
 .post-content h2,
 .post-content h3 {
@@ -210,6 +244,16 @@
   color: #1a5276;
 }
 </style>
+
+<script>
+function copySnippet(btn) {
+  var pre = btn.parentElement.querySelector('pre');
+  navigator.clipboard.writeText(pre.textContent).then(function() {
+    btn.textContent = 'Copied!';
+    setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+  });
+}
+</script>
 
 <!-- Schema.org JSON-LD for LLM and search engine discovery -->
 <script type="application/ld+json">

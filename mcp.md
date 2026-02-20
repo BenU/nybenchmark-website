@@ -18,18 +18,19 @@ NY Benchmark exposes its full dataset through the [Model Context Protocol (MCP)]
 
 ## Connect
 
-Add this to your MCP client configuration:
+Add this configuration snippet to your MCP client:
 
-```json
-{
+<div class="code-snippet-wrapper" markdown="0">
+<button class="copy-btn" onclick="copySnippet(this)" title="Copy to clipboard">Copy</button>
+<pre><code>{
   "mcpServers": {
     "nybenchmark": {
       "command": "npx",
       "args": ["mcp-remote", "https://mcp.nybenchmark.org/mcp"]
     }
   }
-}
-```
+}</code></pre>
+</div>
 
 **Requires:** [Node.js](https://nodejs.org/) (for npx). The `mcp-remote` package proxies the remote MCP endpoint to your local client.
 
@@ -37,11 +38,11 @@ Setup instructions vary by client:
 
 | Client | Setup Guide |
 |--------|------------|
-| [Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop) | Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows), then restart |
-| [ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt/) | Enable Developer Mode in Settings, then add as a Connector. Requires ChatGPT Pro, Team, Enterprise, or Edu |
-| [Gemini CLI](https://geminicli.com/docs/tools/mcp-server/) | Add to your `settings.json` mcpServers configuration |
-| [Cursor](https://docs.cursor.com/context/model-context-protocol) | Add to `.cursor/mcp.json` in your project root or `~/.cursor/mcp.json` globally |
-| [Windsurf](https://docs.windsurf.com/windsurf/cascade/mcp) | Add via MCP Marketplace or edit `~/.codeium/windsurf/mcp_config.json` directly |
+| [Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop) | Add the above code snippet to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows), then restart |
+| [ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt/) | Add the above code snippet as a Connector. Enable Developer Mode in Settings first. Requires ChatGPT Pro, Team, Enterprise, or Edu |
+| [Gemini CLI](https://geminicli.com/docs/tools/mcp-server/) | Add the above code snippet to your `settings.json` mcpServers configuration |
+| [Cursor](https://docs.cursor.com/context/model-context-protocol) | Add the above code snippet to `.cursor/mcp.json` in your project root or `~/.cursor/mcp.json` globally |
+| [Windsurf](https://docs.windsurf.com/windsurf/cascade/mcp) | Add the above code snippet via MCP Marketplace or edit `~/.codeium/windsurf/mcp_config.json` directly |
 
 ## How it works
 
