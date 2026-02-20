@@ -11,7 +11,7 @@ The New York Benchmarking Project is building an open, comprehensive platform fo
 
 **A working data platform** at [app.nybenchmark.org](https://app.nybenchmark.org) with:
 
-- **2.1 million+ data points** imported from the NYS Office of the State Comptroller (61 cities, since 1995), the U.S. Census Bureau (population, income, poverty, since 2012), and the NYS Education Department (689 school districts)
+- **2.1 million+ data points** imported from the NYS Office of the State Comptroller (61 cities, since 1995), the NYC Comptroller's ACFR (FY 2016-2025), the U.S. Census Bureau (population, income, poverty, since 2012), and the NYS Education Department (689 school districts)
 - **Ranked dashboards** — Cities ranked by Fund Balance %, Debt Service %, and Per-Capita Spending, making it immediately visible which cities are financially healthy and which are under stress
 - **Per-city trend charts** — Revenue, expenditure, and balance sheet trends since 1995 for each city
 - **Derived fiscal health metrics** — Fund Balance as a % of Expenditures, Debt Service as a % of Expenditures, and Per-Capita Spending — ratios that make comparison across cities of different sizes meaningful
@@ -29,7 +29,7 @@ The data infrastructure is in place. The next phase makes it *actionable* for re
 
 ## Medium-term: Expanding coverage
 
-- **New York City** — NYC is the largest municipal government in the country but is not in the OSC system (it has its own Comptroller). Importing NYC's data from [Checkbook NYC](https://www.checkbooknyc.com) will add the most important comparison point for every other city in the state.
+- **New York City** ✅ — NYC data imported from the NYC Comptroller's ACFR (FY 2016-2025). Expenditures by functional category and agency, revenue by source, and fund balance classifications. NYC now appears in city rankings and comparisons.
 - **Towns, villages, counties, and special districts** — The OSC collects data from thousands of local government entities beyond cities. Importing this data will enable entirely new questions: Do cities spend more on public safety per capita than villages? How do county-level services compare across regions?
 - **Crime and public safety data** — Import property and violent crime rates from the NYS Division of Criminal Justice Services and FBI UCR. Essential context for evaluating public safety spending.
 - **State aid dependency** — A new derived metric measuring what share of each government's revenue comes from state aid, benchmarking fiscal independence across the state.

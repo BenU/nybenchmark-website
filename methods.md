@@ -15,15 +15,17 @@ For a more detailed technical discussion, see the [Methodology page on the app](
 
 The [OSC](https://www.osc.ny.gov/local-government/data) collects standardized Annual Financial Reports from local governments across New York State. This is an invaluable public resource — the Comptroller's office does the hard work of defining reporting standards and gathering data from thousands of jurisdictions.
 
-NY Benchmark imports OSC data for all 61 cities that file with the Comptroller. (NYC has its own Comptroller and publishes its data separately through [Checkbook NYC](https://www.checkbooknyc.com).) The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **647,000 individual observations**.
+NY Benchmark imports OSC data for all 61 cities that file with the Comptroller. (NYC has its own Comptroller — see below.) The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **647,000 individual observations**.
 
 ### U.S. Census Bureau
 
 Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates, covering **2012 through the present** — over **14,000 observations** across 62 cities.
 
-### NYC Checkbook (planned)
+### NYC Comptroller ACFR
 
-New York City publishes its financial data through [Checkbook NYC](https://www.checkbooknyc.com). Import of this data is planned, which will bring the largest municipal government in the country into the benchmarking dataset.
+New York City has its own Comptroller and is not part of the OSC reporting system. NYC financial data comes from the [Annual Comprehensive Financial Report (ACFR)](https://comptroller.nyc.gov/reports/comprehensive-annual-financial-reports/) published by the NYC Comptroller's office. We import the Ten Year Trend statistical tables covering **FY 2016-2025**, including expenditures by functional category and agency, revenue by source, and fund balance classifications — approximately **760 observations**.
+
+Key differences from OSC data: NYC's fiscal year runs July 1 - June 30 (most other NY cities use the calendar year). NYC's General Fund balance is entirely Restricted and Committed (including a ~$2B Revenue Stabilization Fund) — there is no Unassigned General Fund balance. NYC's $117B budget is approximately 100x larger than the next largest NY city, so per-capita and percentage metrics are more meaningful for comparison than absolute dollar amounts.
 
 ## What NY Benchmark adds
 
@@ -64,7 +66,7 @@ Raw numbers can mislead. Per-capita normalization is a start, but meaningful ben
 ## Known limitations
 
 - **Late and non-filing cities** — Four cities (Mount Vernon, Ithaca, Rensselaer, Fulton) have not filed recent financial reports with the OSC. Their data ends at their last filing year. See the [Non-Filers page](https://app.nybenchmark.org/non-filers) for details.
-- **NYC is separate** — New York City is not in the OSC system and will require a separate data import from Checkbook NYC.
+- **NYC data from ACFR** — New York City is not in the OSC system. NYC data comes from the NYC Comptroller's ACFR (FY 2016-2025). NYC's fund balance classification differs from other cities (no Unassigned General Fund balance), which affects Fund Balance % comparisons.
 - **Reporting differences** — Cities organize their funds and accounts differently. The all-fund approach handles most of this, but edge cases exist (see the [Methodology page](https://app.nybenchmark.org/methodology) for specifics on custodial pass-throughs and the Plattsburgh debt service case).
 - **Census margins of error** — ACS 5-year estimates for smaller cities can have wide confidence intervals, particularly for income and poverty metrics.
 

@@ -42,4 +42,4 @@ The New York Benchmarking Project benchmarks financial and demographic data acro
 
 NY Benchmark imports bulk data from the [NYS Office of the State Comptroller](https://www.osc.ny.gov/local-government/data) (city financials since 1995, school district financials since 2012), the [U.S. Census Bureau](https://www.census.gov/data.html) (population, income, poverty), and the [NYS Education Department](https://data.nysed.gov/) (enrollment, graduation rates, assessment results). The OSC does invaluable work collecting standardized financial reports from local governments across the state. NY Benchmark builds on that data by normalizing it for population and enrollment, computing key ratios, and presenting it in comparative dashboards.
 
-**Coming soon:** NYSED outcomes data (graduation rates, test scores), side-by-side city comparisons, metric-specific leaderboards, category drill-downs, and expansion to NYC, towns, villages, and counties.
+**Coming soon:** NYSED outcomes data (graduation rates, test scores), side-by-side city comparisons, metric-specific leaderboards, category drill-downs, and expansion to towns, villages, and counties.

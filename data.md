@@ -14,7 +14,7 @@ The application is hosted on a separate secure platform.
 ### [🚀 Launch the App (app.nybenchmark.org)](https://app.nybenchmark.org){: .btn }
 
 **Current Features:**
-* Data for New York's 61 Cities (besides NYC) imported from the [Office of the State Comptroller](https://www.osc.ny.gov/local-government/data)
+* Data for all 62 New York Cities imported from the [Office of the State Comptroller](https://www.osc.ny.gov/local-government/data) (61 cities) and [NYC Comptroller's ACFR](https://comptroller.nyc.gov/reports/comprehensive-annual-financial-reports/) (NYC)
 * Demographic Data imported from the [US Census Office](https://www.census.gov/data.html)
 * Combination metrics like per capita stats
 * Charts to illustrate trends clearly
@@ -23,6 +23,5 @@ The application is hosted on a separate secure platform.
 * Side-by-side city comparisons on any metric
 * Metric-specific leaderboards (e.g., police spending per capita across all cities)
 * Category drill-downs (break Public Safety into Police, Fire, etc.)
-* Data for NYC imported from [Checkbook NYC](https://www.checkbooknyc.com)
 * Data for New York's counties, towns, villages, districts, and authorities
 * Demographic context (poverty rates, crime rates) to explain spending differences
