@@ -6,6 +6,7 @@ author: New York Benchmarking Project
 
 header_pages:
   - methods.md
+  - mcp.md
   - roadmap.md
   - about.md
 
