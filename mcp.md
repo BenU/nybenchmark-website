@@ -5,7 +5,16 @@ permalink: /mcp/
 description: "Connect AI tools like Claude, ChatGPT, Gemini, or any MCP client to 2M+ municipal finance data points. Domain-aware caveats applied automatically."
 ---
 
-NY Benchmark exposes its full dataset through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — an open standard that lets AI tools query structured data directly. Connect Claude Desktop, ChatGPT, Gemini, Cursor, Windsurf, or any MCP-compatible client and ask questions in natural language.
+NY Benchmark exposes its full dataset of New York State local government financial data — including NYC — through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), an open standard that lets AI tools query structured data directly. Connect Claude Desktop, ChatGPT, Gemini, Cursor, Windsurf, or any MCP-compatible client and ask questions in natural language.
+
+## Example questions
+
+- "What is Syracuse's fund balance as a percentage of expenditures?"
+- "Compare police spending per capita across Buffalo, Rochester, and Yonkers"
+- "Which cities have the highest debt service burden?"
+- "Show me NYC's revenue sources over the last 10 years"
+- "Which school districts spend the most per pupil?"
+- "What cities are late filing with the State Comptroller?"
 
 ## What you can query
 
@@ -15,6 +24,17 @@ NY Benchmark exposes its full dataset through the [Model Context Protocol (MCP)]
 - **Census demographics** (population, income, poverty, housing, education)
 - **Fiscal stress scores** (OSC FSMS, 2012-present) — fiscal and environmental indicators
 - **Computed metrics** — Fund Balance %, Debt Service %, Per-Capita Spending, available without manual calculation
+
+## What makes this different
+
+Most government data APIs return raw numbers and leave interpretation to the user. Our MCP server includes **domain-aware caveats** that travel with the data:
+
+- **Comparability notes** flag cities with unique reporting structures. NYC isn't inside any county — it encompasses five boroughs that are themselves counties, and its $109B consolidated budget includes functions (like the $34B Department of Education) that are separate entities elsewhere. Plattsburgh runs its own municipal electric utility, putting debt service in enterprise funds that a naive analysis would miss. The server flags these automatically so the AI doesn't produce misleading comparisons.
+- **Filing status** identifies cities that haven't filed recent reports, so the AI doesn't silently present stale data as current
+- **Data quality rules** exclude custodial pass-throughs and interfund transfers that inflate apparent spending
+- **Anti-hallucination directives** prevent the AI from fabricating benchmark thresholds or interpolating missing data
+
+This approach follows progressive disclosure: session-level instructions set the ground rules, and response-level notes provide entity-specific context on demand.
 
 ## Connect
 
@@ -54,28 +74,6 @@ The server provides four tools in a sequential workflow:
 4. **get_data** — retrieve time-series data for specific entities and metrics
 
 Domain rules are applied automatically. You don't need to know about T-fund exclusions, interfund transfer adjustments, or GASB 54 fund balance classifications — the server handles them and attaches explanatory notes to responses when relevant.
-
-## Example questions
-
-Once connected, try asking your AI client:
-
-- "What is Syracuse's fund balance as a percentage of expenditures?"
-- "Compare police spending per capita across Buffalo, Rochester, and Yonkers"
-- "Which cities have the highest debt service burden?"
-- "Show me NYC's revenue sources over the last 10 years"
-- "Which school districts spend the most per pupil?"
-- "What cities are late filing with the State Comptroller?"
-
-## What makes this different
-
-Most government data APIs return raw numbers and leave interpretation to the user. Our MCP server includes **domain-aware caveats** that travel with the data:
-
-- **Comparability notes** flag cities with unique reporting structures (NYC's consolidated budget, Plattsburgh's multi-fund debt service)
-- **Filing status** identifies cities that haven't filed recent reports, so the AI doesn't silently present stale data as current
-- **Data quality rules** exclude custodial pass-throughs and interfund transfers that inflate apparent spending
-- **Anti-hallucination directives** prevent the AI from fabricating benchmark thresholds or interpolating missing data
-
-This approach follows progressive disclosure: session-level instructions set the ground rules, and response-level notes provide entity-specific context on demand.
 
 ## Data sources
 
