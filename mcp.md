@@ -2,10 +2,10 @@
 layout: page
 title: API / MCP Access
 permalink: /mcp/
-description: "Connect AI tools like Claude, ChatGPT, Gemini, or any MCP client to 2M+ municipal finance data points. Domain-aware caveats applied automatically."
+description: "Connect Claude Desktop to 2M+ municipal finance data points via MCP. Domain-aware caveats applied automatically."
 ---
 
-NY Benchmark exposes its full dataset of New York State local government financial data — including NYC — through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), an open standard that lets AI tools query structured data directly. Connect Claude Desktop, ChatGPT, Gemini, Cursor, Windsurf, or any MCP-compatible client and ask questions in natural language.
+NY Benchmark exposes its full dataset of New York State local government financial data — including NYC — through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), an open standard that lets AI tools query structured data directly.
 
 ## Example questions
 
@@ -41,9 +41,12 @@ Most government data APIs return raw numbers and leave interpretation to the use
 
 This approach follows progressive disclosure: session-level instructions set the ground rules, and response-level notes provide entity-specific context on demand.
 
-## Connect
+## Connect with Claude Desktop
 
-Add this configuration snippet to your MCP client:
+**Tested and supported.** Add this to your Claude Desktop config file, then restart Claude Desktop:
+
+- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
 <div class="code-snippet-wrapper" markdown="0">
 <button class="copy-btn" onclick="copySnippet(this)" title="Copy to clipboard">Copy</button>
@@ -57,17 +60,20 @@ Add this configuration snippet to your MCP client:
 }</code></pre>
 </div>
 
-**Requires:** [Node.js](https://nodejs.org/) (for npx). The `mcp-remote` package proxies the remote MCP endpoint to your local client.
+**Requires:** [Node.js](https://nodejs.org/) (for npx). The `mcp-remote` package proxies the remote MCP endpoint to your local client. See [Anthropic's MCP setup guide](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop) for detailed instructions.
 
-Setup instructions vary by client:
+### Other MCP clients
 
-| Client | Setup Guide |
-|--------|------------|
-| [Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop) | Add the above code snippet to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows), then restart |
-| [ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt/) | Add the above code snippet as a Connector. Enable Developer Mode in Settings first. Requires ChatGPT Pro, Team, Enterprise, or Edu |
-| [Gemini CLI](https://geminicli.com/docs/tools/mcp-server/) | Add the above code snippet to your `settings.json` mcpServers configuration |
-| [Cursor](https://docs.cursor.com/context/model-context-protocol) | Add the above code snippet to `.cursor/mcp.json` in your project root or `~/.cursor/mcp.json` globally |
-| [Windsurf](https://docs.windsurf.com/windsurf/cascade/mcp) | Add the above code snippet via MCP Marketplace or edit `~/.codeium/windsurf/mcp_config.json` directly |
+MCP is an open standard and our endpoint (`https://mcp.nybenchmark.org/mcp`) should work with any MCP-compatible client that supports remote servers. We haven't tested these, but they may work:
+
+| Client | Notes |
+|--------|-------|
+| [Cursor](https://docs.cursor.com/context/model-context-protocol) | Add the same JSON snippet to `.cursor/mcp.json` |
+| [Windsurf](https://docs.windsurf.com/windsurf/cascade/mcp) | Add via MCP Marketplace or `~/.codeium/windsurf/mcp_config.json` |
+| [ChatGPT](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) | Requires Developer Mode (Pro, Team, Enterprise, or Edu — not available on Plus) |
+| [Gemini CLI](https://geminicli.com/docs/tools/mcp-server/) | Command-line only, not the Gemini web app |
+
+If you get it working with another client, [let us know](mailto:info@nybenchmark.org).
 
 ## How it works
 
