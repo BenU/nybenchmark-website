@@ -13,17 +13,22 @@ NY Benchmark exposes its full dataset of New York State local government financi
 - "Compare police spending per capita across Buffalo, Rochester, and Yonkers"
 - "Which cities have the highest debt service burden?"
 - "Show me NYC's revenue sources over the last 10 years"
+- "Rank all towns by per capita spending"
+- "Which villages spend the most on public safety?"
+- "What are the 10 most populated towns in New York?"
 - "Which school districts spend the most per pupil?"
 - "What cities are late filing with the State Comptroller?"
 
 ## What you can query
 
 - **30 years of city financial data** (62 cities, 1995-present) — revenue, expenditures, fund balances, debt service
+- **Town and village finances** (933 towns, 558 villages, 1997-present) — the same OSC financial data, now queryable and rankable
 - **School district finances** (689 districts, 2012-present) — per-pupil spending, state aid, fund balances
 - **County finances** (57 counties, 1995-present)
 - **Census demographics** (population, income, poverty, housing, education)
 - **Fiscal stress scores** (OSC FSMS, 2012-present) — fiscal and environmental indicators
 - **Computed metrics** — Fund Balance %, Debt Service %, Per-Capita Spending, available without manual calculation
+- **Rankings** — rank any entity type by any metric, cross-type rankings (e.g. all cities, towns, and villages together), top/bottom N
 
 ## What makes this different
 
@@ -66,12 +71,13 @@ Setup instructions vary by client:
 
 ## How it works
 
-The server provides four tools in a sequential workflow:
+The server provides five tools in a sequential workflow:
 
 1. **discover_data** — overview of available data sources, entity types, and year ranges
-2. **find_entities** — search for cities, counties, or school districts by name, kind, or filing status
+2. **find_entities** — search for cities, counties, school districts, towns, or villages by name, kind, or filing status
 3. **find_metrics** — explore available metrics by category (revenue, expenditure, balance sheet) or search by keyword
 4. **get_data** — retrieve time-series data for specific entities and metrics
+5. **rank_entities** — rank entities by any metric (top/bottom N, cross-type rankings like all cities + towns + villages together)
 
 Domain rules are applied automatically. You don't need to know about T-fund exclusions, interfund transfer adjustments, or GASB 54 fund balance classifications — the server handles them and attaches explanatory notes to responses when relevant.
 
@@ -81,7 +87,7 @@ All data comes from official government sources:
 
 | Source | Coverage | Link |
 |--------|----------|------|
-| NYS Office of the State Comptroller | 61 cities, 57 counties, 689 school districts (1995-present) | [osc.ny.gov](https://www.osc.ny.gov/local-government/data) |
+| NYS Office of the State Comptroller | 61 cities, 933 towns, 558 villages, 57 counties, 689 school districts (1995-present) | [osc.ny.gov](https://www.osc.ny.gov/local-government/data) |
 | NYC Comptroller ACFR | NYC (FY 2016-2025) | [comptroller.nyc.gov](https://comptroller.nyc.gov/reports/annual-comprehensive-financial-reports/) |
 | U.S. Census Bureau ACS | Demographics (2010-present) | [census.gov](https://www.census.gov/programs-surveys/acs) |
 | OSC Fiscal Stress Monitoring System | Stress scores (2012-present) | [osc.ny.gov](https://www.osc.ny.gov/local-government/fiscal-monitoring) |
