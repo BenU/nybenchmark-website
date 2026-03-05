@@ -20,9 +20,13 @@ The New York Benchmarking Project benchmarks financial and demographic data acro
 
 <div class="cta-section">
 
-<a href="https://app.nybenchmark.org" class="cta-primary">Launch the Data App</a>
+<a href="https://app.nybenchmark.org" class="cta-primary">Find Your City, Town, Village, County, or School District</a>
 
 <div class="cta-grid">
+  <a href="https://app.nybenchmark.org/stress-analysis" class="cta-card cta-card--featured">
+    <div class="cta-card-title">Fiscal Stress Analysis</div>
+    <p class="cta-desc">Interactive scatter charts tracking fiscal and environmental stress trajectories for every city, county, town, village, and school district since 2012.</p>
+  </a>
   <a href="https://app.nybenchmark.org/entities/nyc" class="cta-card cta-card--featured">
     <div class="cta-card-title">NYC Is Now Live</div>
     <p class="cta-desc">New York City — 40% of the state's population, $109.6B in expenditures — is now in the dataset. 10 years of audited actuals from the NYC Comptroller's ACFR.</p>
@@ -34,10 +38,6 @@ The New York Benchmarking Project benchmarks financial and demographic data acro
   <a href="https://app.nybenchmark.org/entities?kind=city" class="cta-card">
     <div class="cta-card-title">City Fiscal Dashboards</div>
     <p class="cta-desc">Ranked fiscal health metrics, trend charts, and per-capita breakdowns for all 62 cities.</p>
-  </a>
-  <a href="https://app.nybenchmark.org/stress-analysis" class="cta-card cta-card--featured">
-    <div class="cta-card-title">Fiscal Stress Analysis</div>
-    <p class="cta-desc">Interactive scatter charts tracking fiscal and environmental stress trajectories for every city, county, town, village, and school district since 2012.</p>
   </a>
   <a href="https://app.nybenchmark.org/school-districts/compare" class="cta-card">
     <div class="cta-card-title">Compare School Districts</div>
