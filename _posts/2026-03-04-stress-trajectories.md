@@ -11,6 +11,9 @@ author: Ben Unger
 
 *Every city in the [NY Benchmark stress analysis](https://app.nybenchmark.org/stress-analysis) now has a trajectory chart showing its FSMS scores over time. Here's why that matters and what we're seeing.*
 
+![Niagara Falls stress trajectory showing improvement from ~75 fiscal stress in 2012 to near 0 in 2024](/assets/images/posts/fsms-stress-analysis/niagara-falls-trajectory.png)
+*[Niagara Falls](https://app.nybenchmark.org/entities/niagara_falls) went from "Significant Fiscal Stress" (score ~75) in 2012 to near zero by 2024 — a textbook turnaround.*
+
 ## A single year doesn't tell the story
 
 The NYS Comptroller's [Fiscal Stress Monitoring System](https://www.osc.ny.gov/local-government/fiscal-monitoring) (FSMS) scores local governments on two dimensions: fiscal stress (fund balance, cash, operating deficits) and environmental stress (population trends, poverty, property values). Higher scores mean more stress — 0 is healthy, 100 is significant stress.
@@ -40,9 +43,7 @@ A few patterns stand out across the dataset:
 
 **Aid dependency correlates with trajectory direction.** Cities with high aid dependency (red dots) tend to cluster in the upper-right quadrant and show less improvement over time. Cities that generate more of their own revenue (green dots) have more fiscal flexibility to course-correct.
 
-**[Niagara Falls](https://app.nybenchmark.org/entities/niagara-falls): a turnaround story.** In 2012, Niagara Falls had a fiscal stress score near 75 — deep in "Significant Fiscal Stress" territory. Over the next decade, the city steadily improved its fiscal position, reaching a score near 0 by 2024. The trajectory chart tells the story clearly: a long, consistent march from the right side of the chart to the left.
-
-![Niagara Falls stress trajectory showing improvement from ~75 fiscal stress in 2012 to near 0 in 2024](/assets/images/posts/fsms-stress-analysis/niagara-falls-trajectory.png)
+**Niagara Falls: a turnaround story.** As shown in the trajectory above, Niagara Falls had a fiscal stress score near 75 in 2012 — deep in "Significant Fiscal Stress" territory. Over the next decade, the city steadily improved its fiscal position, reaching a score near 0 by 2024. The trajectory tells the story clearly: a long, consistent march from the right side of the chart to the left.
 
 **The 2017 methodology change is visible.** FSMS switched from a weighted fraction system (0-1.0) to a direct 100-point scale in 2017. We normalize pre-2017 scores to the 0-100 scale for visual continuity, but you may notice a cluster of trajectory shifts around 2016-2017 that reflect the scoring change rather than actual fiscal movement.
 
@@ -53,5 +54,3 @@ Explore the full dataset — cities, school districts, counties, towns, and vill
 ## Data sources
 
 All scores come from the OSC FSMS, covering fiscal years 2012-2024 for municipalities and 2013-2025 for school districts. Aid dependency is calculated from OSC Annual Financial Report data (state aid + federal aid as a percentage of total operating revenue). See our [methodology page](https://app.nybenchmark.org/methodology) for details on data processing, normalization, and known limitations.
-
-{% include cta-banner.html %}
