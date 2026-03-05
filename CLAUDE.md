@@ -149,7 +149,7 @@ When adding new pages, include `{% include cta-banner.html %}` at the bottom of 
 
 - **The application repo (`nybenchmark-app`) is private.** Do not add links to its GitHub repo on public-facing pages. The blog repo is public.
 - **No open-source references.** The project is described as a "civic-tech initiative", not "open-source". This was intentionally changed site-wide.
-- **Data counts:** The platform currently has 2.1M+ data points. Update this number when it changes significantly.
+- **Data counts:** The platform currently has 10M+ data points (as of March 2026). Update this number when it changes significantly. See also `../nybenchmark-app/CLAUDE.md` "Data Count References" for the full list of places counts appear across both repos.
 
 ## Known Issues
 
