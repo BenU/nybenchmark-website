@@ -1,17 +1,19 @@
 ---
 layout: home
 title: New York Benchmarking Project
-description: "Benchmarking financial and demographic data across New York State's local governments — 2.1M+ data points, 62 cities, 57 counties, 689 school districts. AI-ready via MCP."
+description: "Benchmarking financial and demographic data across New York State's local governments — 10M+ data points, 62 cities, 57 counties, 933 towns, 558 villages, 689 school districts. AI-ready via MCP."
 ---
 
 **Civic reform through benchmarking.**
 
-The New York Benchmarking Project benchmarks financial and demographic data across New York State's local governments — covering 62 cities, 57 counties, and 689 school districts — making it easy for residents, journalists, researchers, and policymakers to compare how they raise and spend public money.
+The New York Benchmarking Project benchmarks financial and demographic data across New York State's local governments — covering 62 cities, 57 counties, 933 towns, 558 villages, and 689 school districts — making it easy for residents, journalists, researchers, and policymakers to compare how they raise and spend public money.
 
 <div class="stats-bar">
-  <div class="stat"><span class="stat-number">2.1M+</span><span class="stat-label">Data Points</span></div>
+  <div class="stat"><span class="stat-number">10M+</span><span class="stat-label">Data Points</span></div>
   <div class="stat"><span class="stat-number">62</span><span class="stat-label">Cities</span></div>
   <div class="stat"><span class="stat-number">57</span><span class="stat-label">Counties</span></div>
+  <div class="stat"><span class="stat-number">933</span><span class="stat-label">Towns</span></div>
+  <div class="stat"><span class="stat-number">558</span><span class="stat-label">Villages</span></div>
   <div class="stat"><span class="stat-number">689</span><span class="stat-label">School Districts</span></div>
   <div class="stat"><span class="stat-number">Since 1995</span><span class="stat-label">Financial Data</span></div>
 </div>
@@ -32,6 +34,10 @@ The New York Benchmarking Project benchmarks financial and demographic data acro
   <a href="https://app.nybenchmark.org/entities?kind=city" class="cta-card">
     <div class="cta-card-title">City Fiscal Dashboards</div>
     <p class="cta-desc">Ranked fiscal health metrics, trend charts, and per-capita breakdowns for all 62 cities.</p>
+  </a>
+  <a href="https://app.nybenchmark.org/stress-analysis" class="cta-card cta-card--featured">
+    <div class="cta-card-title">Fiscal Stress Analysis</div>
+    <p class="cta-desc">Interactive scatter charts tracking fiscal and environmental stress trajectories for every city, county, town, village, and school district since 2012.</p>
   </a>
   <a href="https://app.nybenchmark.org/school-districts/compare" class="cta-card">
     <div class="cta-card-title">Compare School Districts</div>

@@ -2,7 +2,7 @@
 layout: page
 title: API / MCP Access
 permalink: /mcp/
-description: "Connect Claude Desktop to 2M+ municipal finance data points via MCP. Domain-aware caveats applied automatically."
+description: "Connect Claude Desktop to 10M+ municipal finance data points via MCP. Domain-aware caveats applied automatically."
 ---
 
 NY Benchmark exposes its full dataset of New York State local government financial data — including NYC — through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), an open standard that lets AI tools query structured data directly.

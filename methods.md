@@ -15,11 +15,11 @@ For a more detailed technical discussion, see the [Methodology page on the app](
 
 The [OSC](https://www.osc.ny.gov/local-government/data) collects standardized Annual Financial Reports from local governments across New York State. This is an invaluable public resource — the Comptroller's office does the hard work of defining reporting standards and gathering data from thousands of jurisdictions.
 
-NY Benchmark imports OSC data for all 61 cities that file with the Comptroller. (NYC has its own Comptroller — see below.) The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **647,000 individual observations**.
+NY Benchmark imports OSC data for all 61 cities that file with the Comptroller (NYC has its own Comptroller — see below), plus 57 counties, 933 towns, 558 villages, and 689 school districts. The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **9.4 million individual observations**.
 
 ### U.S. Census Bureau
 
-Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates, covering **2012 through the present** — over **14,000 observations** across 62 cities.
+Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates, covering **2010 through the present** — over **63,000 observations** across cities, counties, and school districts.
 
 ### NYC Comptroller ACFR
 

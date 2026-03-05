@@ -2,7 +2,7 @@
 layout: page
 title: Roadmap
 permalink: /roadmap/
-description: "What we've built and what's next: 2.1M+ data points across 62 cities and 689 school districts today, with side-by-side comparisons, expanded entity coverage, and demographic context on the way."
+description: "What we've built and what's next: 10M+ data points across 2,299 local governments today, with side-by-side comparisons, stress analysis, and demographic context on the way."
 ---
 
 The New York Benchmarking Project is building an open, comprehensive platform for comparing how New York State's local governments raise and spend public money. Here is what we have built, what we are building next, and where the project is headed.
@@ -11,7 +11,7 @@ The New York Benchmarking Project is building an open, comprehensive platform fo
 
 **A working data platform** at [app.nybenchmark.org](https://app.nybenchmark.org) with:
 
-- **2.1 million+ data points** imported from the NYS Office of the State Comptroller (61 cities, since 1995), the NYC Comptroller's ACFR (FY 2016-2025), the U.S. Census Bureau (population, income, poverty, since 2012), and the NYS Education Department (689 school districts)
+- **10 million+ data points** imported from the NYS Office of the State Comptroller (62 cities, 57 counties, 933 towns, 558 villages, 689 school districts — since 1995), the NYC Comptroller's ACFR (FY 2016-2025), the U.S. Census Bureau (population, income, poverty, since 2012), and the OSC Fiscal Stress Monitoring System (fiscal and environmental stress scores, 2012-present)
 - **Ranked dashboards** — Cities ranked by Fund Balance %, Debt Service %, and Per-Capita Spending, making it immediately visible which cities are financially healthy and which are under stress
 - **Per-city trend charts** — Revenue, expenditure, and balance sheet trends since 1995 for each city
 - **Derived fiscal health metrics** — Fund Balance as a % of Expenditures, Debt Service as a % of Expenditures, and Per-Capita Spending — ratios that make comparison across cities of different sizes meaningful
@@ -30,7 +30,7 @@ The data infrastructure is in place. The next phase makes it *actionable* for re
 ## Medium-term: Expanding coverage
 
 - **New York City** ✅ — NYC data imported from the NYC Comptroller's ACFR (FY 2016-2025). Expenditures by functional category and agency, revenue by source, and fund balance classifications. NYC now appears in city rankings and comparisons.
-- **Towns, villages, counties, and special districts** — The OSC collects data from thousands of local government entities beyond cities. Importing this data will enable entirely new questions: Do cities spend more on public safety per capita than villages? How do county-level services compare across regions?
+- **Towns, villages, and counties** ✅ — 933 towns, 558 villages, and 57 counties imported from OSC (1995-present). Queryable and rankable alongside cities. Special districts (fire districts, LDCs, IDAs, libraries) still to come.
 - **Crime and public safety data** — Import property and violent crime rates from the NYS Division of Criminal Justice Services and FBI UCR. Essential context for evaluating public safety spending.
 - **State aid dependency** — A new derived metric measuring what share of each government's revenue comes from state aid, benchmarking fiscal independence across the state.
 
