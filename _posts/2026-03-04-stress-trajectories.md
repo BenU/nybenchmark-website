@@ -40,15 +40,15 @@ A few patterns stand out across the dataset:
 
 **Aid dependency correlates with trajectory direction.** Cities with high aid dependency (red dots) tend to cluster in the upper-right quadrant and show less improvement over time. Cities that generate more of their own revenue (green dots) have more fiscal flexibility to course-correct.
 
+**[Niagara Falls](https://app.nybenchmark.org/entities/niagara-falls): a turnaround story.** In 2012, Niagara Falls had a fiscal stress score near 75 — deep in "Significant Fiscal Stress" territory. Over the next decade, the city steadily improved its fiscal position, reaching a score near 0 by 2024. The trajectory chart tells the story clearly: a long, consistent march from the right side of the chart to the left.
+
+![Niagara Falls stress trajectory showing improvement from ~75 fiscal stress in 2012 to near 0 in 2024](/assets/images/posts/fsms-stress-analysis/niagara-falls-trajectory.png)
+
 **The 2017 methodology change is visible.** FSMS switched from a weighted fraction system (0-1.0) to a direct 100-point scale in 2017. We normalize pre-2017 scores to the 0-100 scale for visual continuity, but you may notice a cluster of trajectory shifts around 2016-2017 that reflect the scoring change rather than actual fiscal movement.
 
 ## Try it yourself
 
-Pick any city on [NY Benchmark](https://app.nybenchmark.org) and look for the "View Stress Trajectory" link on its profile page. Cities with 2 or more years of FSMS data will show a trajectory chart.
-
-You can zoom and pan the chart to focus on specific time periods, download the chart as a PNG for reports or presentations, and expand the data table and indicator breakdown to see exactly which stress indicators drove each year's score.
-
-The full dataset — cities, school districts, counties, towns, and villages — is available on the [stress analysis page](https://app.nybenchmark.org/stress-analysis).
+Explore the full dataset — cities, school districts, counties, towns, and villages — on the [stress analysis page](https://app.nybenchmark.org/stress-analysis). Click any dot to see its trajectory, zoom and pan to focus on specific time periods, download charts as PNGs, and expand the data table and indicator breakdown to see exactly which stress indicators drove each year's score.
 
 ## Data sources
 
