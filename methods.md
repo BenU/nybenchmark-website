@@ -2,7 +2,7 @@
 layout: page
 title: Methods
 permalink: /methods/
-description: "How NY Benchmark works: bulk data from the NYS Comptroller and U.S. Census Bureau, derived fiscal health metrics, and the data principles behind our comparisons."
+description: "How NY Benchmark works: bulk data from the NYS Comptroller (financials and FSMS stress scores), U.S. Census Bureau, and NYC Comptroller, plus derived fiscal health metrics and data principles."
 ---
 
 This project benchmarks New York State local governments using bulk data from official government sources. The goal is to publish comparable metrics with clear provenance so that readers can evaluate claims, reproduce results, and improve the dataset.
@@ -15,7 +15,7 @@ For a more detailed technical discussion, see the [Methodology page on the app](
 
 The [OSC](https://www.osc.ny.gov/local-government/data) collects standardized Annual Financial Reports from local governments across New York State. This is an invaluable public resource — the Comptroller's office does the hard work of defining reporting standards and gathering data from thousands of jurisdictions.
 
-NY Benchmark imports OSC data for all 61 cities that file with the Comptroller (NYC has its own Comptroller — see below), plus 57 counties, 933 towns, 558 villages, and 689 school districts. The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **9.4 million individual observations**.
+NY Benchmark imports OSC data for all 61 cities that file with the Comptroller (NYC has its own Comptroller — see below), plus 57 counties, 933 towns, 558 villages, and 689 school districts. The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **9.7 million individual observations**.
 
 ### U.S. Census Bureau
 
@@ -26,6 +26,12 @@ Demographic data (population, median household income, poverty rates, and more) 
 New York City has its own Comptroller and is not part of the OSC reporting system. NYC financial data comes from the [Annual Comprehensive Financial Report (ACFR)](https://comptroller.nyc.gov/reports/comprehensive-annual-financial-reports/) published by the NYC Comptroller's office. We import the Ten Year Trend statistical tables covering **FY 2016-2025**, including expenditures by functional category and agency, revenue by source, and fund balance classifications — approximately **760 observations**.
 
 Key differences from OSC data: NYC's fiscal year runs July 1 - June 30 (most other NY cities use the calendar year). NYC's General Fund balance is entirely Restricted and Committed (including a ~$2B Revenue Stabilization Fund) — there is no Unassigned General Fund balance. NYC's $117B budget is approximately 100x larger than the next largest NY city, so per-capita and percentage metrics are more meaningful for comparison than absolute dollar amounts.
+
+### NYS Comptroller — Fiscal Stress Monitoring System (FSMS)
+
+The OSC's [Fiscal Stress Monitoring System](https://www.osc.ny.gov/local-government/fiscal-monitoring) evaluates the fiscal health of local governments using composite scoring. Each entity receives a fiscal stress score (0-100) based on financial indicators and an environmental stress score (0-100) based on external factors like poverty, population change, and property values. Entities are designated as "Significant Fiscal Stress," "Moderate Fiscal Stress," "Susceptible to Fiscal Stress," or "No Designation."
+
+NY Benchmark imports FSMS scores for cities, counties, towns, and villages (2012-2024) and school districts (2013-2025) from the OSC's published Excel workbooks — over **166,000 observations**. The scoring methodology changed in 2017; we normalize pre-2017 scores to the 100-point scale for trend consistency. NYC, Big Five school districts, and Union Free special-act districts are exempt from FSMS. The [Stress Analysis](https://app.nybenchmark.org/stress-analysis) page visualizes these scores interactively.
 
 ## What NY Benchmark adds
 
