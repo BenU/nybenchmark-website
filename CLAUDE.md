@@ -143,7 +143,7 @@ The site uses Minima 2.5 with custom overrides in `custom-head.html`:
 - **CTA banner:** Light blue banner (`#f0f6fa`) included at the bottom of all content pages and blog posts via `cta-banner.html`
 - **Footer:** 3-column layout — contact/tagline, site links, app deep links
 
-When adding new pages, include `{% include cta-banner.html %}` at the bottom of the content.
+When adding new pages (layout: page), include `{% include cta-banner.html %}` at the bottom of the content. **Do not** include it in blog posts — the `post.html` layout already includes the CTA banner automatically, and adding it in the post body creates a duplicate.
 
 ## Important Constraints
 
