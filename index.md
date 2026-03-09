@@ -1,7 +1,7 @@
 ---
 layout: home
 title: New York Benchmarking Project
-description: "Benchmarking financial and demographic data across New York State's local governments — 10M+ data points, 62 cities, 57 counties, 933 towns, 558 villages, 689 school districts. AI-ready via MCP."
+description: "Benchmarking financial and demographic data across New York State's local governments — 15.3M+ data points, 62 cities, 57 counties, 933 towns, 558 villages, 689 school districts. AI-ready via MCP."
 ---
 
 **Civic reform through benchmarking.**
@@ -9,7 +9,7 @@ description: "Benchmarking financial and demographic data across New York State'
 The New York Benchmarking Project benchmarks financial and demographic data across New York State's local governments — covering 62 cities, 57 counties, 933 towns, 558 villages, and 689 school districts — making it easy for residents, journalists, researchers, and policymakers to compare how they raise and spend public money.
 
 <div class="stats-bar">
-  <div class="stat"><span class="stat-number">10M+</span><span class="stat-label">Data Points</span></div>
+  <div class="stat"><span class="stat-number">15.3M+</span><span class="stat-label">Data Points</span></div>
   <div class="stat"><span class="stat-number">62</span><span class="stat-label">Cities</span></div>
   <div class="stat"><span class="stat-number">57</span><span class="stat-label">Counties</span></div>
   <div class="stat"><span class="stat-number">933</span><span class="stat-label">Towns</span></div>

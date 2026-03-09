@@ -19,7 +19,7 @@ for quality assurance and validation, not primary data entry.
 ## Status
 
 **Live.** The data explorer at [app.nybenchmark.org](https://app.nybenchmark.org)
-serves 10 million+ observations covering 2,299 local governments (62 cities, 57 counties, 933 towns, 558 villages, 689 school districts), with ranked dashboards,
+serves 15.3 million+ observations covering 2,299 local governments (62 cities, 57 counties, 933 towns, 558 villages, 689 school districts), with ranked dashboards,
 trend charts, fiscal stress analysis, and derived fiscal health metrics.
 
 ## Principles
