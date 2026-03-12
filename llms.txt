@@ -11,7 +11,7 @@ This site (nybenchmark.org) is the project blog containing methodology documenta
 ## Related Sites
 
 - Blog & Documentation: https://nybenchmark.org (this site)
-- Data Application: https://app.nybenchmark.org
+- Data Application: https://benchmarkusa.org
 - Source Code (Blog): https://github.com/BenU/nybenchmark-website
 
 ## Key Pages

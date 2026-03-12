@@ -9,7 +9,7 @@ This file provides essential context for Claude Code sessions working on the NY 
 ## Project Overview
 
 - **Site:** https://nybenchmark.org
-- **Companion app:** https://app.nybenchmark.org (separate repo: `../nybenchmark-app`)
+- **Companion app:** https://benchmarkusa.org (separate repo: `../nybenchmark-app`)
 - **Purpose:** Jekyll blog and marketing site for the New York Benchmarking Project, a civic-tech initiative comparing financial data across NY State local governments
 - **Repo:** https://github.com/BenU/nybenchmark-website
 

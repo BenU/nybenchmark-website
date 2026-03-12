@@ -9,7 +9,7 @@ The New York Benchmarking Project is building an open, comprehensive platform fo
 
 ## What exists today
 
-**A working data platform** at [app.nybenchmark.org](https://app.nybenchmark.org) with:
+**A working data platform** at [benchmarkusa.org](https://benchmarkusa.org) with:
 
 - **15.3 million+ data points** imported from the NYS Office of the State Comptroller (62 cities, 57 counties, 933 towns, 558 villages, 689 school districts — since 1995), the NYC Comptroller's ACFR (FY 2016-2025), the U.S. Census Bureau (population, income, poverty, since 2012), and the OSC Fiscal Stress Monitoring System (fiscal and environmental stress scores, 2012-present)
 - **Ranked dashboards** — Cities ranked by Fund Balance %, Debt Service %, and Per-Capita Spending, making it immediately visible which cities are financially healthy and which are under stress
@@ -17,7 +17,7 @@ The New York Benchmarking Project is building an open, comprehensive platform fo
 - **Derived fiscal health metrics** — Fund Balance as a % of Expenditures, Debt Service as a % of Expenditures, and Per-Capita Spending — ratios that make comparison across cities of different sizes meaningful
 - **Non-filer tracking** — Identification and public accountability for cities that fail to file required financial reports (approximately 20% of NY local governments file late or not at all)
 - **Data quality infrastructure** — Exclusion of custodial pass-throughs and interfund transfers that would otherwise inflate expenditure figures by 40-50% for some cities; all-fund approach that handles the wide variation in how cities organize their budgets
-- **Full documentation** — Public [methodology](https://app.nybenchmark.org/methodology) and every data point traceable to its official source
+- **Full documentation** — Public [methodology](https://benchmarkusa.org/methodology) and every data point traceable to its official source
 
 ## Near-term: Comparison tools
 

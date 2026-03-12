@@ -17,7 +17,7 @@ This project is **nonpartisan** and **evidence-based**. Data is imported from of
 
 ## The data explorer
 
-The application at **[app.nybenchmark.org](https://app.nybenchmark.org)** currently serves 15.3 million+ observations covering 62 cities, 57 counties, 933 towns, 558 villages, and 689 school districts, with ranked dashboards, trend charts, fiscal stress analysis, and derived fiscal health metrics (Fund Balance %, Debt Service %, Per-Capita Spending).
+The application at **[benchmarkusa.org](https://benchmarkusa.org)** currently serves 15.3 million+ observations covering 62 cities, 57 counties, 933 towns, 558 villages, and 689 school districts, with ranked dashboards, trend charts, fiscal stress analysis, and derived fiscal health metrics (Fund Balance %, Debt Service %, Per-Capita Spending).
 
 ## What is coming next
 

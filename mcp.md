@@ -54,7 +54,7 @@ This approach follows progressive disclosure: session-level instructions set the
   "mcpServers": {
     "nybenchmark": {
       "command": "npx",
-      "args": ["mcp-remote", "https://mcp.nybenchmark.org/mcp"]
+      "args": ["mcp-remote", "https://mcp.benchmarkusa.org/mcp"]
     }
   }
 }</code></pre>
@@ -64,7 +64,7 @@ This approach follows progressive disclosure: session-level instructions set the
 
 ### Other MCP clients
 
-MCP is an open standard and our endpoint (`https://mcp.nybenchmark.org/mcp`) should work with any MCP-compatible client that supports remote servers. We haven't tested these, but they may work:
+MCP is an open standard and our endpoint (`https://mcp.benchmarkusa.org/mcp`) should work with any MCP-compatible client that supports remote servers. We haven't tested these, but they may work:
 
 | Client | Notes |
 |--------|-------|
@@ -98,6 +98,6 @@ All data comes from official government sources:
 | U.S. Census Bureau ACS | Demographics (2010-present) | [census.gov](https://www.census.gov/programs-surveys/acs) |
 | OSC Fiscal Stress Monitoring System | Stress scores (2012-present) | [osc.ny.gov](https://www.osc.ny.gov/local-government/fiscal-monitoring) |
 
-For detailed methodology, see the [Methodology page](https://app.nybenchmark.org/methodology) on the app.
+For detailed methodology, see the [Methodology page](https://benchmarkusa.org/methodology) on the app.
 
 {% include cta-banner.html %}

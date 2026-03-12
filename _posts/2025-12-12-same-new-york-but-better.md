@@ -102,7 +102,7 @@ This site will publish:
 - Notes on data sources and limitations
 - Early findings and comparisons as they emerge
 
-A [public data explorer](https://app.nybenchmark.org) is in development and will be made available as the dataset matures.
+A [public data explorer](https://benchmarkusa.org) is in development and will be made available as the dataset matures.
 
 The work will be slow, careful, and incremental by design.
 

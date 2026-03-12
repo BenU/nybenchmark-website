@@ -24,7 +24,7 @@ This page provides structured information about the New York Benchmarking Projec
 | Resource | URL |
 |----------|-----|
 | Project Blog | https://nybenchmark.org |
-| Data Application | https://app.nybenchmark.org |
+| Data Application | https://benchmarkusa.org |
 | GitHub (Blog) | https://github.com/BenU/nybenchmark-website |
 | Contact | contact@nybenchmark.org |
 

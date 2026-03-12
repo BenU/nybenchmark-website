@@ -11,7 +11,7 @@ We are currently tracking financial documents and performance metrics for New Yo
 
 The application is hosted on a separate secure platform.
 
-### [🚀 Launch the App (app.nybenchmark.org)](https://app.nybenchmark.org){: .btn }
+### [🚀 Launch the App (benchmarkusa.org)](https://benchmarkusa.org){: .btn }
 
 **Current Features:**
 * Data for all 62 New York Cities imported from the [Office of the State Comptroller](https://www.osc.ny.gov/local-government/data) (61 cities) and [NYC Comptroller's ACFR](https://comptroller.nyc.gov/reports/comprehensive-annual-financial-reports/) (NYC)

@@ -9,7 +9,7 @@ tags: [nyc, acfr, osc, fund-balance, gasb-54, excel-parsing, data-pipeline]
 author: Ben Unger
 ---
 
-*NYC is now live on [NY Benchmark](https://app.nybenchmark.org/entities/nyc). Here's the story of why it wasn't there before, what we imported, and what surprised us.*
+*NYC is now live on [NY Benchmark](https://benchmarkusa.org/entities/nyc). Here's the story of why it wasn't there before, what we imported, and what surprised us.*
 
 ## The missing 40%
 
@@ -117,6 +117,6 @@ For context, NYC's police budget alone ($6.6B) is larger than the entire budget 
 - **Historical extension** — The FY 2022 ACFR ZIP extends some metrics back to FY 2005. A future import will add that historical depth.
 - **DOE as a school district** — Breaking out the Department of Education's $34.1B with per-pupil and enrollment-normalized metrics, comparable to our upstate school district data.
 
-NYC is live now at [app.nybenchmark.org/entities/nyc](https://app.nybenchmark.org/entities/nyc).
+NYC is live now at [benchmarkusa.org/entities/nyc](https://benchmarkusa.org/entities/nyc).
 
 {% include cta-banner.html %}

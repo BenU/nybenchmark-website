@@ -9,10 +9,10 @@ tags: [fsms, fiscal-stress, trajectory, osc, data-visualization, stress-trajecto
 author: Ben Unger
 ---
 
-*Every city in the [NY Benchmark stress analysis](https://app.nybenchmark.org/stress-analysis) now has a trajectory chart showing its FSMS scores over time. Here's why that matters and what we're seeing.*
+*Every city in the [NY Benchmark stress analysis](https://benchmarkusa.org/stress-analysis) now has a trajectory chart showing its FSMS scores over time. Here's why that matters and what we're seeing.*
 
 ![Niagara Falls stress trajectory showing improvement from ~75 fiscal stress in 2012 to near 0 in 2024](/assets/images/posts/fsms-stress-analysis/niagara-falls-trajectory.png)
-*[Niagara Falls](https://app.nybenchmark.org/entities/niagara_falls) went from "Significant Fiscal Stress" (score ~75) in 2012 to near zero by 2024 — a textbook turnaround.*
+*[Niagara Falls](https://benchmarkusa.org/entities/niagara_falls) went from "Significant Fiscal Stress" (score ~75) in 2012 to near zero by 2024 — a textbook turnaround.*
 
 ## A single year doesn't tell the story
 
@@ -49,8 +49,8 @@ A few patterns stand out across the dataset:
 
 ## Try it yourself
 
-Explore the full dataset — cities, school districts, counties, towns, and villages — on the [stress analysis page](https://app.nybenchmark.org/stress-analysis). Click any dot to see its trajectory, zoom and pan to focus on specific time periods, download charts as PNGs, and expand the data table and indicator breakdown to see exactly which stress indicators drove each year's score.
+Explore the full dataset — cities, school districts, counties, towns, and villages — on the [stress analysis page](https://benchmarkusa.org/stress-analysis). Click any dot to see its trajectory, zoom and pan to focus on specific time periods, download charts as PNGs, and expand the data table and indicator breakdown to see exactly which stress indicators drove each year's score.
 
 ## Data sources
 
-All scores come from the OSC FSMS, covering fiscal years 2012-2024 for municipalities and 2013-2025 for school districts. Aid dependency is calculated from OSC Annual Financial Report data (state aid + federal aid as a percentage of total operating revenue). See our [methodology page](https://app.nybenchmark.org/methodology) for details on data processing, normalization, and known limitations.
+All scores come from the OSC FSMS, covering fiscal years 2012-2024 for municipalities and 2013-2025 for school districts. Aid dependency is calculated from OSC Annual Financial Report data (state aid + federal aid as a percentage of total operating revenue). See our [methodology page](https://benchmarkusa.org/methodology) for details on data processing, normalization, and known limitations.

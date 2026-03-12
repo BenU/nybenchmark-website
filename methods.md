@@ -7,7 +7,7 @@ description: "How NY Benchmark works: bulk data from the NYS Comptroller (financ
 
 This project benchmarks New York State local governments using bulk data from official government sources. The goal is to publish comparable metrics with clear provenance so that readers can evaluate claims, reproduce results, and improve the dataset.
 
-For a more detailed technical discussion, see the [Methodology page on the app](https://app.nybenchmark.org/methodology).
+For a more detailed technical discussion, see the [Methodology page on the app](https://benchmarkusa.org/methodology).
 
 ## Data sources
 
@@ -31,7 +31,7 @@ Key differences from OSC data: NYC's fiscal year runs July 1 - June 30 (most oth
 
 The OSC's [Fiscal Stress Monitoring System](https://www.osc.ny.gov/local-government/fiscal-monitoring) evaluates the fiscal health of local governments using composite scoring. Each entity receives a fiscal stress score (0-100) based on financial indicators and an environmental stress score (0-100) based on external factors like poverty, population change, and property values. Entities are designated as "Significant Fiscal Stress," "Moderate Fiscal Stress," "Susceptible to Fiscal Stress," or "No Designation."
 
-NY Benchmark imports FSMS scores for cities, counties, towns, and villages (2012-2024) and school districts (2013-2025) from the OSC's published Excel workbooks — over **166,000 observations**. The scoring methodology changed in 2017; we normalize pre-2017 scores to the 100-point scale for trend consistency. NYC, Big Five school districts, and Union Free special-act districts are exempt from FSMS. The [Stress Analysis](https://app.nybenchmark.org/stress-analysis) page visualizes these scores interactively.
+NY Benchmark imports FSMS scores for cities, counties, towns, and villages (2012-2024) and school districts (2013-2025) from the OSC's published Excel workbooks — over **166,000 observations**. The scoring methodology changed in 2017; we normalize pre-2017 scores to the 100-point scale for trend consistency. NYC, Big Five school districts, and Union Free special-act districts are exempt from FSMS. The [Stress Analysis](https://benchmarkusa.org/stress-analysis) page visualizes these scores interactively.
 
 ## What NY Benchmark adds
 
@@ -71,9 +71,9 @@ Raw numbers can mislead. Per-capita normalization is a start, but meaningful ben
 
 ## Known limitations
 
-- **Late and non-filing cities** — Four cities (Mount Vernon, Ithaca, Rensselaer, Fulton) have not filed recent financial reports with the OSC. Their data ends at their last filing year. See the [Non-Filers page](https://app.nybenchmark.org/non-filers) for details.
+- **Late and non-filing cities** — Four cities (Mount Vernon, Ithaca, Rensselaer, Fulton) have not filed recent financial reports with the OSC. Their data ends at their last filing year. See the [Non-Filers page](https://benchmarkusa.org/non-filers) for details.
 - **NYC data from ACFR** — New York City is not in the OSC system. NYC data comes from the NYC Comptroller's ACFR (FY 2016-2025). NYC's fund balance classification differs from other cities (no Unassigned General Fund balance), which affects Fund Balance % comparisons.
-- **Reporting differences** — Cities organize their funds and accounts differently. The all-fund approach handles most of this, but edge cases exist (see the [Methodology page](https://app.nybenchmark.org/methodology) for specifics on custodial pass-throughs and the Plattsburgh debt service case).
+- **Reporting differences** — Cities organize their funds and accounts differently. The all-fund approach handles most of this, but edge cases exist (see the [Methodology page](https://benchmarkusa.org/methodology) for specifics on custodial pass-throughs and the Plattsburgh debt service case).
 - **Census margins of error** — ACS 5-year estimates for smaller cities can have wide confidence intervals, particularly for income and poverty metrics.
 
 ## Corrections and contributions
