@@ -255,35 +255,7 @@ function copySnippet(btn) {
 }
 </script>
 
-<!-- Schema.org JSON-LD for LLM and search engine discovery -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "BenchmarkUSA",
-  "alternateName": "BenchmarkUSA Blog",
-  "url": "{{ '/' | absolute_url }}",
-  "description": "BenchmarkUSA blog and documentation covering local government finance, methods, and project updates.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "BenchmarkUSA",
-    "url": "{{ '/' | absolute_url }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ '/assets/images/og-default.png' | absolute_url }}"
-    },
-    "sameAs": [
-      "https://github.com/BenU/nybenchmark-app",
-      "https://github.com/BenU/nybenchmark-website"
-    ]
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://benchmarkusa.org/observations?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
+<!-- Additional Schema.org JSON-LD beyond jekyll-seo-tag defaults -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -320,6 +292,6 @@ function copySnippet(btn) {
     "@type": "Organization",
     "name": "BenchmarkUSA"
   },
-  "codeRepository": "https://github.com/BenU/nybenchmark-website"
+  "codeRepository": "https://github.com/BenU/nybenchmark-app"
 }
 </script>
