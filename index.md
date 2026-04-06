@@ -1,21 +1,19 @@
 ---
 layout: home
-title: New York Benchmarking Project
-description: "Benchmarking financial and demographic data across New York State's local governments — 15.3M+ data points, 62 cities, 57 counties, 933 towns, 558 villages, 689 school districts. AI-ready via MCP."
+title: BenchmarkUSA Blog
+description: "BenchmarkUSA covers local government finance across the United States, with nationwide Census data and growing multi-state financial coverage."
 ---
 
 **Civic reform through benchmarking.**
 
-The New York Benchmarking Project benchmarks financial and demographic data across New York State's local governments — covering 62 cities, 57 counties, 933 towns, 558 villages, and 689 school districts — making it easy for residents, journalists, researchers, and policymakers to compare how they raise and spend public money.
+BenchmarkUSA tracks local government finance across the United States. We now have Census data for municipalities nationwide, detailed financial data for New York, California, Florida, and North Carolina, and additional state pipelines expanding over time. The goal is simple: make it easier for residents, journalists, researchers, and public officials to compare how local governments raise and spend public money.
 
 <div class="stats-bar">
-  <div class="stat"><span class="stat-number">15.3M+</span><span class="stat-label">Data Points</span></div>
-  <div class="stat"><span class="stat-number">62</span><span class="stat-label">Cities</span></div>
-  <div class="stat"><span class="stat-number">57</span><span class="stat-label">Counties</span></div>
-  <div class="stat"><span class="stat-number">933</span><span class="stat-label">Towns</span></div>
-  <div class="stat"><span class="stat-number">558</span><span class="stat-label">Villages</span></div>
-  <div class="stat"><span class="stat-number">689</span><span class="stat-label">School Districts</span></div>
-  <div class="stat"><span class="stat-number">Since 1995</span><span class="stat-label">Financial Data</span></div>
+  <div class="stat"><span class="stat-number">Nationwide</span><span class="stat-label">Census Coverage</span></div>
+  <div class="stat"><span class="stat-number">NY, CA, FL, NC</span><span class="stat-label">Detailed Financial Data</span></div>
+  <div class="stat"><span class="stat-number">Growing</span><span class="stat-label">State Coverage</span></div>
+  <div class="stat"><span class="stat-number">AI-Ready</span><span class="stat-label">MCP Access</span></div>
+  <div class="stat"><span class="stat-number">Since 1995</span><span class="stat-label">Historical Financials</span></div>
 </div>
 
 <div class="cta-section">
@@ -25,27 +23,27 @@ The New York Benchmarking Project benchmarks financial and demographic data acro
 <div class="cta-grid">
   <a href="https://benchmarkusa.org/stress-analysis" class="cta-card cta-card--featured">
     <div class="cta-card-title">Fiscal Stress Analysis</div>
-    <p class="cta-desc">Interactive scatter charts tracking fiscal and environmental stress trajectories for every city, county, town, village, and school district since 2012.</p>
+    <p class="cta-desc">Interactive charts tracking fiscal and environmental stress trajectories across cities, counties, towns, villages, and school districts.</p>
   </a>
-  <a href="https://benchmarkusa.org/entities/nyc" class="cta-card cta-card--featured">
-    <div class="cta-card-title">NYC Is Now Live</div>
-    <p class="cta-desc">New York City — 40% of the state's population, $109.6B in expenditures — is now in the dataset. 10 years of audited actuals from the NYC Comptroller's ACFR.</p>
+  <a href="https://benchmarkusa.org/ca" class="cta-card cta-card--featured">
+    <div class="cta-card-title">Multi-State Coverage Is Live</div>
+    <p class="cta-desc">BenchmarkUSA now extends beyond New York, with detailed financial coverage already live for California and additional state imports underway.</p>
   </a>
   <a href="/mcp/" class="cta-card cta-card--featured">
     <div class="cta-card-title">AI-Ready Data via MCP</div>
     <p class="cta-desc">Query the full dataset from Claude, ChatGPT, Cursor, or any MCP client. Domain-aware caveats included automatically.</p>
   </a>
   <a href="https://benchmarkusa.org/entities?kind=city" class="cta-card">
-    <div class="cta-card-title">City Fiscal Dashboards</div>
-    <p class="cta-desc">Ranked fiscal health metrics, trend charts, and per-capita breakdowns for all 62 cities.</p>
+    <div class="cta-card-title">Explore Local Governments</div>
+    <p class="cta-desc">Search cities, counties, towns, villages, and school districts with public finance and demographic context.</p>
   </a>
   <a href="https://benchmarkusa.org/school-districts/compare" class="cta-card">
-    <div class="cta-card-title">Compare School Districts</div>
-    <p class="cta-desc">Interactive scatter plots across per-pupil spending, overhead, and state aid.</p>
+    <div class="cta-card-title">Compare Schools and Counties</div>
+    <p class="cta-desc">Use comparison tools and scatter plots to benchmark school districts and counties on spending, aid, and structure.</p>
   </a>
 </div>
 </div>
 
-NY Benchmark imports bulk data from the [NYS Office of the State Comptroller](https://www.osc.ny.gov/local-government/data) (city and county financials since 1995, school district financials since 2012), the [NYC Comptroller](https://comptroller.nyc.gov/reports/annual-comprehensive-financial-reports/) (NYC ACFR data, FY 2016-2025), the [U.S. Census Bureau](https://www.census.gov/data.html) (population, income, poverty), and the [OSC Fiscal Stress Monitoring System](https://www.osc.ny.gov/local-government/fiscal-monitoring) (fiscal and environmental stress scores). The OSC does invaluable work collecting standardized financial reports from local governments across the state. NY Benchmark builds on that data by normalizing it for population and enrollment, computing key ratios, and presenting it in comparative dashboards. The full dataset is also available to AI tools via [MCP](/mcp/).
+BenchmarkUSA combines nationwide Census data with state and local financial reporting systems. Current sources include the [NYS Office of the State Comptroller](https://www.osc.ny.gov/local-government/data), the [NYC Comptroller](https://comptroller.nyc.gov/reports/annual-comprehensive-financial-reports/), the [California State Controller](https://bythenumbers.sco.ca.gov/), the Florida Department of Financial Services, North Carolina local government financial reporting, the [U.S. Census Bureau](https://www.census.gov/data.html), and the [OSC Fiscal Stress Monitoring System](https://www.osc.ny.gov/local-government/fiscal-monitoring). BenchmarkUSA normalizes those sources into comparable dashboards, rankings, and time series, and makes the dataset available to AI tools via [MCP](/mcp/).
 
-**Coming soon:** NYSED outcomes data (graduation rates, test scores), side-by-side city comparisons, metric-specific leaderboards, and category drill-downs.
+**Coming next:** broader state coverage, more side-by-side comparisons, richer metric leaderboards, and deeper documentation on methodology and data quality across states.
