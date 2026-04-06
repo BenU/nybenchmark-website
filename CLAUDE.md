@@ -92,6 +92,17 @@ https://github.com/BenU/nybenchmark-website/actions
 
 After deploying new posts, request indexing in Google Search Console via URL Inspection.
 
+Important: GitHub Pages deploys for this repo do **not** update the production blog at
+`https://benchmarkusa.org/blog`. That production blog is served by `../nybenchmark-app`
+from synced static output in `public/blog`.
+
+For any production-facing blog change:
+
+1. Merge the change in `nybenchmark-website`
+2. Rebuild/sync the blog into `nybenchmark-app`
+3. Deploy `nybenchmark-app`
+4. Verify the live `/blog` URLs on `benchmarkusa.org`
+
 ## Post-Deploy Verification
 
 After pushing to `main`, verify the deploy succeeded and changes are live. Cloudflare CDN may serve stale content briefly after a build completes.

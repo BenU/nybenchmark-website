@@ -22,6 +22,19 @@ for quality assurance and validation, not primary data entry.
 serves 15.3 million+ observations covering 2,299 local governments (62 cities, 57 counties, 933 towns, 558 villages, 689 school districts), with ranked dashboards,
 trend charts, fiscal stress analysis, and derived fiscal health metrics.
 
+The blog source lives in this repo, but the production blog at
+`https://benchmarkusa.org/blog` is shipped by the companion Rails app
+in `../nybenchmark-app` after the built Jekyll output is synced into
+that repo's `public/blog`.
+
+That means a merge in `nybenchmark-website` alone does not update the
+live `/blog` site. To ship blog content, metadata, sitemap, feed, or
+`robots.txt` changes to production:
+
+1. Merge the change in `nybenchmark-website`
+2. Rebuild/sync the blog into `nybenchmark-app`
+3. Deploy `nybenchmark-app`
+
 ## Principles
 
 - Nonpartisan and evidence-based
