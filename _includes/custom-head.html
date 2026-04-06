@@ -262,15 +262,15 @@ function copySnippet(btn) {
   "@type": "WebSite",
   "name": "BenchmarkUSA",
   "alternateName": "BenchmarkUSA Blog",
-  "url": "https://nybenchmark.org",
+  "url": "{{ '/' | absolute_url }}",
   "description": "BenchmarkUSA blog and documentation covering local government finance, methods, and project updates.",
   "publisher": {
     "@type": "Organization",
     "name": "BenchmarkUSA",
-    "url": "https://nybenchmark.org",
+    "url": "{{ '/' | absolute_url }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://nybenchmark.org/assets/logo.png"
+      "url": "{{ '/assets/images/og-default.png' | absolute_url }}"
     },
     "sameAs": [
       "https://github.com/BenU/nybenchmark-app",
@@ -289,7 +289,7 @@ function copySnippet(btn) {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "BenchmarkUSA",
-  "url": "https://nybenchmark.org",
+  "url": "{{ '/' | absolute_url }}",
   "description": "A civic-tech initiative publishing local government financial data, analysis, and documentation.",
   "foundingDate": "2025",
   "knowsAbout": [

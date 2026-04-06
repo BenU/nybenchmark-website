@@ -1,11 +1,15 @@
+RUBY := /opt/homebrew/opt/ruby/bin/ruby
+BUNDLE := $(RUBY) -S bundle
+BLOG_BUILD_DIR := /tmp/benchmarkusa-blog-site
+
 serve:
-	bundle exec jekyll serve --livereload
+	$(BUNDLE) exec jekyll serve --livereload
 
 install:
-	bundle install
+	$(BUNDLE) install
 
 build:
-	bundle exec jekyll build
+	$(BUNDLE) exec jekyll build --disable-disk-cache
 
 build-benchmarkusa-blog:
-	bundle exec jekyll build --config _config.yml,_config_benchmarkusa_blog.yml
+	$(BUNDLE) exec jekyll build --disable-disk-cache --config _config.yml,_config_benchmarkusa_blog.yml --destination $(BLOG_BUILD_DIR)
