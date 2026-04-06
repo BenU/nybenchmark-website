@@ -23,7 +23,7 @@ BenchmarkUSA tracks local government finance across the United States. We now ha
 <div class="cta-grid">
   <a href="https://benchmarkusa.org/stress-analysis" class="cta-card cta-card--featured">
     <div class="cta-card-title">Fiscal Stress Analysis</div>
-    <p class="cta-desc">Interactive charts tracking fiscal and environmental stress trajectories across cities, counties, towns, villages, and school districts.</p>
+    <p class="cta-desc">New York-only for now. Interactive charts tracking fiscal and environmental stress trajectories across New York cities, counties, towns, villages, and school districts.</p>
   </a>
   <a href="https://benchmarkusa.org/ca" class="cta-card cta-card--featured">
     <div class="cta-card-title">Multi-State Coverage Is Live</div>
@@ -39,7 +39,7 @@ BenchmarkUSA tracks local government finance across the United States. We now ha
   </a>
   <a href="https://benchmarkusa.org/school-districts/compare" class="cta-card">
     <div class="cta-card-title">Compare Schools and Counties</div>
-    <p class="cta-desc">Use comparison tools and scatter plots to benchmark school districts and counties on spending, aid, and structure.</p>
+    <p class="cta-desc">New York-only for now. Use comparison tools and scatter plots to benchmark New York school districts and counties on spending, aid, and structure.</p>
   </a>
 </div>
 </div>

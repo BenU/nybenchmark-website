@@ -1,8 +1,8 @@
-title: New York Benchmarking Project
-description: Civic reform through benchmarking of New York State local governments.
+title: BenchmarkUSA
+description: BenchmarkUSA blog and documentation for local government finance, methodology, and project updates.
 theme: minima
 
-author: New York Benchmarking Project
+author: BenchmarkUSA
 
 header_pages:
   - methods.md
