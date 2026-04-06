@@ -5,7 +5,7 @@ permalink: /mcp/
 description: "Connect Claude Desktop to 10M+ municipal finance data points via MCP. Domain-aware caveats applied automatically."
 ---
 
-NY Benchmark exposes its full dataset of New York State local government financial data — including NYC — through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), an open standard that lets AI tools query structured data directly.
+BenchmarkUSA exposes its local government finance dataset through the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), an open standard that lets AI tools query structured data directly. The deepest current coverage remains New York, with broader multi-state coverage expanding over time.
 
 ## Example questions
 
@@ -73,7 +73,7 @@ MCP is an open standard and our endpoint (`https://mcp.benchmarkusa.org/mcp`) sh
 | [ChatGPT](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) | Requires Developer Mode (Pro, Team, Enterprise, or Edu — not available on Plus) |
 | [Gemini CLI](https://geminicli.com/docs/tools/mcp-server/) | Command-line only, not the Gemini web app |
 
-If you get it working with another client, [let us know](mailto:info@nybenchmark.org).
+If you get it working with another client, [let us know](mailto:contact@benchmarkusa.org).
 
 ## How it works
 

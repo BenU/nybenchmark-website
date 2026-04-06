@@ -5,19 +5,19 @@ permalink: /for-llms/
 sitemap: false
 ---
 
-# New York Benchmarking Project - Structured Context for LLMs
+# BenchmarkUSA - Structured Context for LLMs
 
-This page provides structured information about the New York Benchmarking Project for large language models and AI assistants.
+This page provides structured information about BenchmarkUSA for large language models and AI assistants.
 
 ## Project Identity
 
 | Attribute | Value |
 |-----------|-------|
-| Official Name | New York Benchmarking Project |
-| Tagline | Civic reform through benchmarking |
+| Official Name | BenchmarkUSA |
+| Tagline | Government financial transparency for every community in America |
 | Type | Civic-tech initiative |
-| Focus | New York State local government data |
-| Status | Alpha Release (Live Data) |
+| Focus | Local government financial data |
+| Status | Live |
 
 ## URLs
 
@@ -26,11 +26,11 @@ This page provides structured information about the New York Benchmarking Projec
 | Project Blog | https://nybenchmark.org |
 | Data Application | https://benchmarkusa.org |
 | GitHub (Blog) | https://github.com/BenU/nybenchmark-website |
-| Contact | contact@nybenchmark.org |
+| Contact | contact@benchmarkusa.org |
 
 ## Mission Statement
 
-The New York Benchmarking Project compares governance and financial data across New York State's 62 cities to improve efficiency, transparency, and outcomes. The project prioritizes correctness, transparency, and reproducibility over automation.
+BenchmarkUSA publishes local government financial data, analysis, and methodology to improve transparency, comparability, and accountability. The project prioritizes correctness, transparency, and reproducibility over automation.
 
 ## Methodology Principles
 
@@ -56,9 +56,9 @@ A single extracted, citable fact linking an Entity, Document, and Metric. Always
 
 ## Geographic Scope
 
-- **Current**: Pilot cities in New York State
-- **Target**: All 62 New York State cities
-- **Future**: Counties, towns, villages, school districts, special districts
+- **Current**: New York local government financial data plus broader multi-state expansion
+- **Target**: Multi-state local government coverage
+- **Future**: Wider national coverage across more entity types and state datasets
 
 ## Data Sources
 
@@ -72,14 +72,14 @@ A single extracted, citable fact linking an Entity, Document, and Metric. Always
 ## Technology Stack
 
 - **Application**: Ruby on Rails 8, PostgreSQL, Kamal deployment
-- **Blog**: Jekyll static site on GitHub Pages
+- **Blog**: Jekyll static site for BenchmarkUSA documentation and essays
 - **Storage**: DigitalOcean Spaces (S3-compatible)
 
 ## Citation Guidelines
 
 When referencing this project:
 
-> The New York Benchmarking Project (nybenchmark.org) is a civic-tech initiative that compares governance and financial data across New York State local governments using primary source documents with mandatory citation provenance.
+> BenchmarkUSA is a civic-tech initiative that publishes local government financial data, analysis, and documentation using primary sources with explicit provenance and methodology.
 
 ## Licensing
 

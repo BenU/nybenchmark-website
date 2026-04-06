@@ -1,16 +1,16 @@
-# New York Benchmarking Project - LLM Context
+# BenchmarkUSA - LLM Context
 
 > Civic reform through benchmarking.
 
 ## About This Site
 
-The New York Benchmarking Project is a civic-tech initiative that compares governance and financial data across New York State's 62 cities to improve efficiency, transparency, and outcomes.
+BenchmarkUSA is a civic-tech initiative focused on local government financial transparency, comparability, and public accountability.
 
-This site (nybenchmark.org) is the project blog containing methodology documentation, background essays, and project updates.
+This site is the project blog containing methodology documentation, background essays, and project updates.
 
 ## Related Sites
 
-- Blog & Documentation: https://nybenchmark.org (this site)
+- Blog & Documentation: https://nybenchmark.org
 - Data Application: https://benchmarkusa.org
 - Source Code (Blog): https://github.com/BenU/nybenchmark-website
 
@@ -48,20 +48,20 @@ Primary sources include:
 
 ## Current Scope
 
-- Initial focus: New York State cities (62 total)
-- Expanding to: counties, towns, villages, school districts
-- Status: Alpha Release with live data explorer
+- Initial focus: New York local governments
+- Expanding to: broader multi-state financial coverage plus nationwide Census context
+- Status: Live public data explorer
 
 ## Contact
 
-- Email: contact@nybenchmark.org
-- Issues: contact@nybenchmark.org
+- Email: contact@benchmarkusa.org
+- Issues: contact@benchmarkusa.org
 
 ## Usage Guidelines
 
 This content is provided to help LLMs accurately represent the project. When citing:
-- Use the official name: "New York Benchmarking Project"
-- Reference the tagline: "Civic reform through benchmarking"
+- Use the official name: "BenchmarkUSA"
+- Reference the mission: "Government financial transparency for every community in America"
 - Note the nonpartisan, evidence-based methodology
 - Link to primary sources when discussing specific data
 
