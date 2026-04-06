@@ -1,14 +1,14 @@
-# robots.txt for nybenchmark.org
+# robots.txt for benchmarkusa.org/blog
 # Policy: Maximum discoverability for search engines and AI crawlers
 #
-# The New York Benchmarking Project compares governance and financial data
-# across New York State's 62 cities to improve transparency and outcomes.
+# BenchmarkUSA publishes local government finance analysis, methodology,
+# and project updates under the /blog subpath.
 #
 # LLM-readable context available at:
-# https://nybenchmark.org/llms.txt
-# https://nybenchmark.org/for-llms
+# https://benchmarkusa.org/blog/llms.txt
+# https://benchmarkusa.org/blog/for-llms/
 
 User-agent: *
 Allow: /
 
-Sitemap: https://nybenchmark.org/sitemap.xml
+Sitemap: https://benchmarkusa.org/blog/sitemap.xml
