@@ -11,7 +11,7 @@ author: Ben Unger
 
 *Every city in the [NY Benchmark stress analysis](https://benchmarkusa.org/stress-analysis) now has a trajectory chart showing its FSMS scores over time. Here's why that matters and what we're seeing.*
 
-![Niagara Falls stress trajectory showing improvement from ~75 fiscal stress in 2012 to near 0 in 2024](/assets/images/posts/fsms-stress-analysis/niagara-falls-trajectory.png)
+![Niagara Falls stress trajectory showing improvement from ~75 fiscal stress in 2012 to near 0 in 2024]({{ "/assets/images/posts/fsms-stress-analysis/niagara-falls-trajectory.png" | relative_url }})
 *[Niagara Falls](https://benchmarkusa.org/entities/niagara_falls) went from "Significant Fiscal Stress" (score ~75) in 2012 to near zero by 2024 — a textbook turnaround.*
 
 ## A single year doesn't tell the story

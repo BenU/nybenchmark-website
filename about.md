@@ -24,8 +24,8 @@ Having lived in Ohio, Massachusetts, Honduras, Missouri, Pennsylvania, New York 
 ## What you will find here
 
 - Blog posts explaining the motivation, methods, and findings
-- A [methodology page](/methods/) documenting data sources and principles
-- A [roadmap](/roadmap/) of what's built and what's coming next
+- A [methodology page]({{ "/methods/" | relative_url }}) documenting data sources and principles
+- A [roadmap]({{ "/roadmap/" | relative_url }}) of what's built and what's coming next
 
 ## The data application
 

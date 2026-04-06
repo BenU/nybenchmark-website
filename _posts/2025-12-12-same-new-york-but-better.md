@@ -58,11 +58,11 @@ New York has increasingly seen the former.
 
 Since the early 20th century, New York's share of the national population has declined relative to other states. This shift is reflected in the state's representation in the U.S. House of Representatives, which has steadily decreased as population growth has moved elsewhere (see Figures 1 and 2). While many factors contribute to this trend, governance quality and cost of living influence whether people choose to stay, invest, and raise families.
 
-![Figure 1. New York's share of U.S. House representation over time.](/assets/images/ny-house-share-over-time.png)
+![Figure 1. New York's share of U.S. House representation over time.]({{ "/assets/images/ny-house-share-over-time.png" | relative_url }})
 
 *Figure 1. New York's share of seats in the U.S. House of Representatives relative to other states, illustrating a long-term decline in national representation.*
 
-![Figure 2. Number of U.S. House seats held by New York, 1913–2023.](/assets/images/ny-house-seats-over-time.png)
+![Figure 2. Number of U.S. House seats held by New York, 1913–2023.]({{ "/assets/images/ny-house-seats-over-time.png" | relative_url }})
 
 *Figure 2. Absolute number of U.S. House seats held by New York since the House was standardized at 435 members.*
 

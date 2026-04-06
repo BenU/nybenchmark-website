@@ -12,7 +12,7 @@ Being the [completist](https://www.merriam-webster.com/dictionary/completist) th
 
 ## Why It Matters
 
-My hope is that this project will highlight the practices of communities that are particularly well run, delivering world class government services at a reasonable price, but also draw attention to those governments that are particularly mismanaged.  I've got faith that voters want good government and are willing to vote for politicians who manage and hire in such a way that delivers it.  I also believe that voters often have a hard time knowing exactly what is going on in their governments.  When governments and school districts fail to get their paperwork into the OSC, you have to wonder if they know themselves what is going on inside.  For more on how we use OSC data and what we measure, see our [methodology](/methods).
+My hope is that this project will highlight the practices of communities that are particularly well run, delivering world class government services at a reasonable price, but also draw attention to those governments that are particularly mismanaged.  I've got faith that voters want good government and are willing to vote for politicians who manage and hire in such a way that delivers it.  I also believe that voters often have a hard time knowing exactly what is going on in their governments.  When governments and school districts fail to get their paperwork into the OSC, you have to wonder if they know themselves what is going on inside.  For more on how we use OSC data and what we measure, see our [methodology]({{ "/methods/" | relative_url }}).
 
 ## Chronic vs. Occasional Non-Filers
 
