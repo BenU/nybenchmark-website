@@ -2,10 +2,10 @@
 layout: page
 title: Methods
 permalink: /methods/
-description: "How NY Benchmark works: bulk data from the NYS Comptroller (financials and FSMS stress scores), U.S. Census Bureau, and NYC Comptroller, plus derived fiscal health metrics and data principles."
+description: "How BenchmarkUSA works: official local government financial data, nationwide Census context, and documented methods for comparable public-finance analysis."
 ---
 
-This project benchmarks New York State local governments using bulk data from official government sources. The goal is to publish comparable metrics with clear provenance so that readers can evaluate claims, reproduce results, and improve the dataset.
+BenchmarkUSA benchmarks local governments using bulk data from official government sources. The deepest coverage today remains New York, with broader multi-state financial imports and nationwide Census coverage expanding over time. The goal is to publish comparable metrics with clear provenance so that readers can evaluate claims, reproduce results, and improve the dataset.
 
 For a more detailed technical discussion, see the [Methodology page on the app](https://benchmarkusa.org/methodology).
 
@@ -15,11 +15,11 @@ For a more detailed technical discussion, see the [Methodology page on the app](
 
 The [OSC](https://www.osc.ny.gov/local-government/data) collects standardized Annual Financial Reports from local governments across New York State. This is an invaluable public resource — the Comptroller's office does the hard work of defining reporting standards and gathering data from thousands of jurisdictions.
 
-NY Benchmark imports OSC data for all 61 cities that file with the Comptroller (NYC has its own Comptroller — see below), plus 57 counties, 933 towns, 558 villages, and 689 school districts. The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level — over **9.7 million individual observations**.
+BenchmarkUSA imports OSC data for all 61 cities that file with the Comptroller (NYC has its own Comptroller — see below), plus 57 counties, 933 towns, 558 villages, and 689 school districts. The dataset spans **1995 through the present** and includes revenue, expenditure, and balance sheet data at the fund and account-code level.
 
 ### U.S. Census Bureau
 
-Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates, covering **2010 through the present** — over **63,000 observations** across cities, counties, and school districts.
+Demographic data (population, median household income, poverty rates, and more) is imported from the Census Bureau's [American Community Survey](https://www.census.gov/programs-surveys/acs) 5-year estimates. BenchmarkUSA now uses Census data as nationwide context for municipalities across the United States, while financial coverage expands state by state.
 
 ### NYC Comptroller ACFR
 
@@ -31,13 +31,13 @@ Key differences from OSC data: NYC's fiscal year runs July 1 - June 30 (most oth
 
 The OSC's [Fiscal Stress Monitoring System](https://www.osc.ny.gov/local-government/fiscal-monitoring) evaluates the fiscal health of local governments using composite scoring. Each entity receives a fiscal stress score (0-100) based on financial indicators and an environmental stress score (0-100) based on external factors like poverty, population change, and property values. Entities are designated as "Significant Fiscal Stress," "Moderate Fiscal Stress," "Susceptible to Fiscal Stress," or "No Designation."
 
-NY Benchmark imports FSMS scores for cities, counties, towns, and villages (2012-2024) and school districts (2013-2025) from the OSC's published Excel workbooks — over **166,000 observations**. The scoring methodology changed in 2017; we normalize pre-2017 scores to the 100-point scale for trend consistency. NYC, Big Five school districts, and Union Free special-act districts are exempt from FSMS. The [Stress Analysis](https://benchmarkusa.org/stress-analysis) page visualizes these scores interactively.
+BenchmarkUSA imports FSMS scores for cities, counties, towns, and villages (2012-2024) and school districts (2013-2025) from the OSC's published Excel workbooks. The scoring methodology changed in 2017; we normalize pre-2017 scores to the 100-point scale for trend consistency. NYC, Big Five school districts, and Union Free special-act districts are exempt from FSMS. The [Stress Analysis](https://benchmarkusa.org/stress-analysis) page visualizes these scores interactively.
 
-## What NY Benchmark adds
+## What BenchmarkUSA adds
 
 The raw data from OSC and Census is publicly available, but it is not designed for benchmarking. OSC publishes annual CSVs organized by year and fund — useful for auditors and researchers, but not structured for the kind of cross-city, multi-year comparisons that residents and policymakers need.
 
-NY Benchmark transforms this data into something comparable:
+BenchmarkUSA transforms this data into something comparable:
 
 - **Derived metrics** — Fund Balance as a % of Expenditures, Debt Service as a % of Expenditures, Per-Capita Spending — that distill complex financial statements into numbers you can compare across cities of different sizes.
 - **Fund normalization** — An all-fund approach that includes spending from General, Water, Sewer, Highway, and other funds while excluding custodial pass-throughs (Trust & Agency fund) and interfund transfers that would otherwise double-count or inflate totals.
@@ -49,7 +49,7 @@ NY Benchmark transforms this data into something comparable:
 - **Side-by-side comparison** — Select two or more cities and compare them on any metric, with population-adjusted context.
 - **Metric leaderboards** — Rank all cities on specific spending categories (e.g., police spending per capita, fire department costs, debt service burden).
 - **Category drill-downs** — Break down broad categories (Public Safety, Debt Service) into their components (Police, Fire, Interest, Principal) across cities.
-- **Cross-entity-type analysis** — Compare cities vs. villages vs. towns on comparable metrics, once those entity types are imported.
+- **Cross-entity-type analysis** — Compare cities vs. villages vs. towns on comparable metrics, with broader state coverage continuing to expand.
 - **Demographic context** — Understand spending differences in light of poverty rates, population density, and other factors that affect what local governments need to provide.
 
 ## Data principles
@@ -78,7 +78,7 @@ Raw numbers can mislead. Per-capita normalization is a start, but meaningful ben
 
 ## Corrections and contributions
 
-If you believe a metric is incorrect or ambiguous, please email [contact@nybenchmark.org](mailto:contact@nybenchmark.org) with the city, fiscal year, specific metric, and a citation to the relevant source.
+If you believe a metric is incorrect or ambiguous, please email [contact@benchmarkusa.org](mailto:contact@benchmarkusa.org) with the city, fiscal year, specific metric, and a citation to the relevant source.
 
 Methods will evolve as the dataset grows; changes will be documented publicly.
 
