@@ -2,8 +2,6 @@ title: BenchmarkUSA
 description: BenchmarkUSA blog and documentation for local government finance, methodology, and project updates.
 theme: minima
 
-author: BenchmarkUSA
-
 header_pages:
   - methods.md
   - mcp.md
