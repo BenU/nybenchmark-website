@@ -55,7 +55,7 @@ BenchmarkUSA transforms this data into something comparable:
 ## Data principles
 
 ### 1) Official sources first
-Data is imported from official government databases (OSC, Census Bureau) rather than secondary summaries or news reports. Individual city ACFRs are consulted for quality assurance and validation — see the [Audit Time](https://nybenchmark.org/2026/01/29/audit-time.html) blog post for an example of this verification process.
+Data is imported from official government databases (OSC, Census Bureau) rather than secondary summaries or news reports. Individual city ACFRs are consulted for quality assurance and validation — see the [Audit Time]({{ '/2026/01/29/audit-time.html' | relative_url }}) blog post for an example of this verification process.
 
 ### 2) Provenance is mandatory
 Each data point traces to a source: the OSC dataset and year, the Census survey and variable, or (for manually-entered data) a specific document and page number.

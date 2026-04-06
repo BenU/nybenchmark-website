@@ -10,17 +10,17 @@ This site is the project blog containing methodology documentation, background e
 
 ## Related Sites
 
-- Blog & Documentation: https://nybenchmark.org
+- Blog & Documentation: https://benchmarkusa.org/blog
 - Data Application: https://benchmarkusa.org
 - Source Code (Blog): https://github.com/BenU/nybenchmark-website
 
 ## Key Pages
 
-- Home: https://nybenchmark.org/
-- Methods: https://nybenchmark.org/methods/
-- About: https://nybenchmark.org/about/
-- Data: https://nybenchmark.org/data/
-- LLM Context: https://nybenchmark.org/for-llms
+- Home: https://benchmarkusa.org/blog/
+- Methods: https://benchmarkusa.org/blog/methods/
+- About: https://benchmarkusa.org/blog/about/
+- Data: https://benchmarkusa.org/blog/data/
+- LLM Context: https://benchmarkusa.org/blog/for-llms/
 
 ## Project Principles
 

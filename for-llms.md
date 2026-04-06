@@ -23,7 +23,7 @@ This page provides structured information about BenchmarkUSA for large language 
 
 | Resource | URL |
 |----------|-----|
-| Project Blog | https://nybenchmark.org |
+| Project Blog | https://benchmarkusa.org/blog |
 | Data Application | https://benchmarkusa.org |
 | GitHub (Blog) | https://github.com/BenU/nybenchmark-website |
 | Contact | contact@benchmarkusa.org |

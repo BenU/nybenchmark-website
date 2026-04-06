@@ -94,7 +94,7 @@ Under GASB 54, "Committed" is one step below "Assigned" and two steps below "Una
 
 We've updated our Fund Balance % metric to use **Available Fund Balance** — the sum of Committed, Assigned, and Unassigned balances. This is what credit rating agencies (Moody's, S&P) and the [GFOA](https://www.gfoa.org/) actually look at. Under this definition, NYC's $1.97B Committed balance shows up correctly. The old metric (Unassigned only) would have shown 0% — a classification artifact, not a sign of financial weakness. Buffalo had the same problem in some years after moving reserves to their Committed rainy day fund.
 
-We've also added domain notes in our [MCP server](https://nybenchmark.org/mcp) to flag NYC's unique fund balance structure for AI tools that query the data.
+We've also added domain notes in our [MCP server]({{ '/mcp/' | relative_url }}) to flag NYC's unique fund balance structure for AI tools that query the data.
 
 ## Key numbers (FY 2025)
 
@@ -112,7 +112,7 @@ For context, NYC's police budget alone ($6.6B) is larger than the entire budget 
 
 ## What's next
 
-- **MCP server** — Our [MCP server](https://nybenchmark.org/mcp) lets AI tools like Claude query NYC and all other city data directly, with domain-aware caveats that flag comparability issues like fund balance classification automatically.
+- **MCP server** — Our [MCP server]({{ '/mcp/' | relative_url }}) lets AI tools like Claude query NYC and all other city data directly, with domain-aware caveats that flag comparability issues like fund balance classification automatically.
 - **Agency-level drill-downs** — The remaining 98 agencies, including District Attorneys, Borough Presidents, and Community Boards, will get individual mappings in a future update.
 - **Historical extension** — The FY 2022 ACFR ZIP extends some metrics back to FY 2005. A future import will add that historical depth.
 - **DOE as a school district** — Breaking out the Department of Education's $34.1B with per-pupil and enrollment-normalized metrics, comparable to our upstate school district data.
