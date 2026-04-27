@@ -35,7 +35,7 @@ Under County Executive Ed Day, the county embarked on what became one of the mos
 
 The FSMS data shows the trajectory clearly: 87 in 2012, 64 in 2017, 26 in 2019, 7 in 2021, 0 by 2022.
 
-[View Rockland County's stress trajectory →](https://benchmarkusa.org/entities/rockland-county/stress-trajectory)
+[View Rockland County's stress trajectory →](https://benchmarkusa.org/ny/rockland-county/stress-trajectory)
 
 ### Monroe County — Seven rating upgrades in five years
 
@@ -47,7 +47,7 @@ The turnaround under County Executive Adam Bello has been methodical: conservati
 
 Environmental stress has remained low throughout (under 17), suggesting the county's problems were financial management rather than structural economic decline. That makes the recovery more notable — it was largely within the county's control.
 
-[View Monroe County's stress trajectory →](https://benchmarkusa.org/entities/monroe-county/stress-trajectory)
+[View Monroe County's stress trajectory →](https://benchmarkusa.org/ny/monroe-county/stress-trajectory)
 
 ### Niagara Falls — Recovery despite the odds
 
@@ -59,7 +59,7 @@ The recovery involved improved budgeting practices and reduced reliance on casin
 
 What makes Niagara Falls remarkable is the environmental context. Environmental stress has held steady around 40 throughout the period — population decline, poverty, aging infrastructure. The city got its fiscal house in order *despite* persistent structural challenges, not because those challenges went away.
 
-[View Niagara Falls' stress trajectory →](https://benchmarkusa.org/entities/niagara_falls/stress-trajectory)
+[View Niagara Falls' stress trajectory →](https://benchmarkusa.org/ny/niagara-falls/stress-trajectory)
 
 ### Nassau County — Fiscal improvement under state oversight
 
@@ -71,7 +71,7 @@ The improvement since then has been real: scores dropped from 73 to 3.3, and the
 
 For a county of 1.4 million people, the second most populous in the state outside NYC, the tension between local governance and state oversight is itself a story worth following.
 
-[View Nassau County's stress trajectory →](https://benchmarkusa.org/entities/nassau-county/stress-trajectory)
+[View Nassau County's stress trajectory →](https://benchmarkusa.org/ny/nassau-county/stress-trajectory)
 
 ### Town of Oyster Bay — Post-scandal recovery
 
@@ -81,7 +81,7 @@ Oyster Bay's fiscal stress is inseparable from its governance history. Former To
 
 Under [new leadership](https://www.longislandpress.com/2017/01/31/joe-saladino-appointed-oyster-bay-town-supervisor/), the town eliminated its deficit and paid down $150 million in capital debt. Three consecutive years of zero fiscal stress (2022–2024) and zero environmental stress tell a recovery story, but also a cautionary tale about the fiscal damage that corruption inflicts on communities.
 
-[View Town of Oyster Bay's stress trajectory →](https://benchmarkusa.org/entities/town-of-oyster-bay/stress-trajectory)
+[View Town of Oyster Bay's stress trajectory →](https://benchmarkusa.org/ny/town-of-oyster-bay/stress-trajectory)
 
 ### Yonkers — The big city that turned around
 
@@ -91,7 +91,7 @@ Yonkers oscillated between "Susceptible" and "Significant" for years, receiving 
 
 As the largest city on this list and the fourth largest in the state, Yonkers demonstrates that fiscal turnarounds aren't limited to small jurisdictions with simple budgets. However, a [2024 OSC budget review](https://www.osc.ny.gov/local-government/audits/city/2024/07/12/city-yonkers-budget-review-b24-6-7) noted the city's reliance on $133.5 million in nonrecurring revenue — a reminder that sustained fiscal health requires ongoing discipline, not one-time fixes.
 
-[View Yonkers' stress trajectory →](https://benchmarkusa.org/entities/yonkers/stress-trajectory)
+[View Yonkers' stress trajectory →](https://benchmarkusa.org/ny/yonkers/stress-trajectory)
 
 ## What these stories share
 
