@@ -3,6 +3,7 @@ description: BenchmarkUSA blog and documentation for local government finance, m
 theme: minima
 
 author: BenchmarkUSA
+email: contact@benchmarkusa.orgi
 
 header_pages:
   - methods.md
