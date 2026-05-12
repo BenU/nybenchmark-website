@@ -1,9 +1,9 @@
-RUBY := /opt/homebrew/opt/ruby/bin/ruby
-BUNDLE := $(RUBY) -S bundle
+BUNDLE := $(HOME)/.rbenv/shims/bundle
 BLOG_BUILD_DIR := /tmp/benchmarkusa-blog-site
+BLOG_CONFIG := _config.yml,_config_benchmarkusa_blog.yml
 
 serve:
-	$(BUNDLE) exec jekyll serve --livereload
+	$(BUNDLE) exec jekyll serve --drafts --config $(BLOG_CONFIG)
 
 install:
 	$(BUNDLE) install

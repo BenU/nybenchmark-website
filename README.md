@@ -35,6 +35,39 @@ live `/blog` site. To ship blog content, metadata, sitemap, feed, or
 2. Rebuild/sync the blog into `nybenchmark-app`
 3. Deploy `nybenchmark-app`
 
+## Publishing To `benchmarkusa.org/blog`
+
+The production blog is served by `../nybenchmark-app` from `public/blog`.
+
+Build the blog for the production subpath from this repo:
+
+```bash
+make build-benchmarkusa-blog
+```
+
+That writes the static site to:
+
+- `/tmp/benchmarkusa-blog-site`
+
+To preview the synced output inside the Rails app locally, run from
+`../nybenchmark-app`:
+
+```bash
+./script/sync_benchmarkusa_blog.sh
+```
+
+That copies the built blog into:
+
+- `../nybenchmark-app/public/blog`
+
+Important production note:
+
+- The `nybenchmark-app` deploy workflow automatically checks out
+  `nybenchmark-website`, builds the blog, syncs it into `public/blog`,
+  and deploys the app image.
+- Local manual sync is useful for previewing, but it is not required to
+  publish once the website PR is merged and the app is deployed.
+
 ## Principles
 
 - Nonpartisan and evidence-based
