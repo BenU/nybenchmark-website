@@ -1,8 +1,4 @@
----
-sitemap: false
----
-
-# Claude Code Context
+# Agent Context
 
 This file provides essential context for Claude Code sessions working on the NY Benchmarking Project blog/marketing site.
 
@@ -48,7 +44,7 @@ This file provides essential context for Claude Code sessions working on the NY 
 ├── llms.txt                 # LLM-readable project context
 ├── Makefile                 # Local dev: make serve, make install, make build
 ├── Gemfile / Gemfile.lock   # Ruby dependencies
-└── CLAUDE.md                # This file
+└── AGENTS.md                # This file
 ```
 
 ## Blog Post Conventions
@@ -71,6 +67,15 @@ author: Ben Unger
 - **`categories`** and **`tags`** generate archive pages via Minima and help with SEO topic clustering
 - **`date`** should always be explicit to ensure correct `article:published_time`
 - **`image`** can be set per-post to override the site-wide default `og:image`
+
+## Editorial Workflow
+
+For substantive blog-writing or editorial work, default to a two-step workflow:
+
+1. Produce a short revision memo with argument-level recommendations, source changes, and sample replacement text.
+2. Do not edit the draft until the user approves the direction.
+
+Use direct draft edits immediately only for mechanical fixes such as front matter, broken links, malformed citations, or preview/build issues.
 
 ## SEO & Discoverability
 
@@ -103,6 +108,37 @@ For any production-facing blog change:
 3. Deploy `nybenchmark-app`
 4. Verify the live `/blog` URLs on `benchmarkusa.org`
 
+Concrete commands:
+
+From this repo:
+
+```bash
+make build-benchmarkusa-blog
+```
+
+That builds the production-subpath blog into:
+
+- `/tmp/benchmarkusa-blog-site`
+
+From `../nybenchmark-app` for local preview/sync:
+
+```bash
+./script/sync_benchmarkusa_blog.sh
+```
+
+That syncs the built output into:
+
+- `public/blog`
+
+Important:
+
+- The `nybenchmark-app` deploy workflow automatically checks out
+  `nybenchmark-website`, builds the blog, syncs it into `public/blog`,
+  and deploys the Rails app.
+- Local manual sync is useful for previewing and smoke-testing, but is
+  not required for production once the website PR is merged and the app
+  deploy runs.
+
 ## Post-Deploy Verification
 
 After pushing to `main`, verify the deploy succeeded and changes are live. Cloudflare CDN may serve stale content briefly after a build completes.
@@ -132,11 +168,11 @@ Use `WebFetch` sparingly for meta tag checks -- it strips `<head>` content durin
 
 ## Local Development
 
-Requires Homebrew Ruby (macOS system Ruby is too old for Jekyll 4.4). PATH is configured in `~/.zshrc`.
+Requires Ruby 3.4.7 via `rbenv` (this repo is pinned with `.ruby-version`; macOS system Ruby is too old for Jekyll 4.4).
 
 ```bash
 make install    # bundle install
-make serve      # jekyll serve --livereload → http://localhost:4000
+make serve      # serve drafts with benchmarkusa.org blog config → http://127.0.0.1:4000/blog/
 make build      # jekyll build (no server)
 jserve          # shell alias, same as make serve
 ```
