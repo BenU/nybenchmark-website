@@ -5,7 +5,7 @@ date: 2026-05-12
 permalink: /public-employee-compensation/
 description: "How local governments get public employee compensation wrong, from understaffed critical roles to overtime abuse, pension spiking, and patronage-friendly pay systems."
 categories: [public-finance, governance]
-tags: [public-employee-compensation, overtime, pension-spiking, nepotism, government-capacity, self-certification, public-safety]
+tags: [salaries, compensation, overtime, pension-spiking, nepotism, unions, government-capacity, permitting, self-certification, public-safety]
 author: Ben Unger
 ---
 All societies depend on a professional public workforce. To do their jobs well, public servants need to be paid enough to attract competent people, keep good people around to preserve institutional memory, and support honest administration. But governments can also err in the opposite direction, using taxpayer money to support bloated compensation systems, overtime abuse, and pension games that have little to do with the actual value delivered to residents.
@@ -84,7 +84,13 @@ Would you want to be the supervisor of the mayor's slacker nephew or the council
 
 New York State's own ethics rules recognize the risk. State law prohibits covered officials and employees from participating in decisions to hire, promote, discipline, or discharge relatives, and from awarding contracts to relatives.[^15] That is the right instinct but it only applies at the state level. If a job is attractive enough relative to other available options that insiders will fight to reserve it for friends and family, government needs stronger safeguards.
 
+Nepotism can also compromise labor negotiations. It is hard to bargain at arm's length when many of your friends and family are union members. Even well-meaning officials may find it difficult to separate private loyalties from public obligations, and the wider community can bear the cost.
+
 Strict anti-nepotism rules, open competition, and transparent hiring are part of getting public compensation "just right." Compensation systems that are much more attractive than comparable alternatives can invite patronage when hiring safeguards are weak. Compensation that is too low can leave agencies chronically understaffed. Both outcomes weaken government.
+
+### Are There Rare Exceptions?
+
+There are rare cases where the rule may bend without breaking. If the mayor's brother is a genuine financial savant, or the governor's daughter is the kind of lawyer who could be billing ten times as much in private practice but wants to serve, blanket moralizing can miss the point. Public life has sometimes benefited from exactly that kind of high-talent, high-sacrifice service, including controversial cases like [Robert F. Kennedy](https://en.wikipedia.org/wiki/Robert_F._Kennedy) and non-family examples like [Robert Rubin](https://en.wikipedia.org/wiki/Robert_Rubin) and [John C. Whitehead](https://en.wikipedia.org/wiki/John_C._Whitehead), who left much better paid private-sector careers for government. But that is the exception that proves the rule. If an insider gets the job, the burden of proof should be brutal: clear legal authority, full transparency, real public scrutiny, and no doubt that the appointment reflects extraordinary merit rather than family convenience.
 
 ## Conclusion
 
