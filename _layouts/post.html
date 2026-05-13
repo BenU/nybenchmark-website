@@ -19,6 +19,26 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+    {%- if page.categories.size > 0 or page.tags.size > 0 -%}
+      <div class="post-taxonomy">
+        {%- if page.categories.size > 0 -%}
+          <p class="post-taxonomy-row">
+            <span class="taxonomy-label">Categories:</span>
+            {%- for category in page.categories -%}
+              <a class="taxonomy-chip" href="{{ '/categories/' | relative_url }}#{{ category | slugify }}">{{ category }}</a>
+            {%- endfor -%}
+          </p>
+        {%- endif -%}
+        {%- if page.tags.size > 0 -%}
+          <p class="post-taxonomy-row">
+            <span class="taxonomy-label">Topics:</span>
+            {%- for tag in page.tags -%}
+              <a class="taxonomy-chip" href="{{ '/topics/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+            {%- endfor -%}
+          </p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
