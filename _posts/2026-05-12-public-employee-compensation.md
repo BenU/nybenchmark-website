@@ -12,6 +12,9 @@ All societies depend on a professional public workforce. To do their jobs well, 
 
 The goal is not to drive compensation to the bottom or to defend every existing compensation package. The goal is to "Goldilocks" public employee compensation: not too low, not too high, but just right.
 
+> The goal is to "Goldilocks" public employee compensation: not too low, not too high, but just right.
+
+
 ## The Cost of Paying Too Little
 
 Paying too little is not mainly a moral problem. It is a state-capacity problem. When governments cannot attract and retain qualified people for hard-to-fill roles, the result is not savings. The result is weaker service, slower enforcement, and lower-quality government.
@@ -75,14 +78,19 @@ But premium compensation is not a blank check. The existence of danger does not 
 ## Nepotism: A Persistent Threat
 
 Few things destroy morale and public confidence faster than nepotism. When attractive public jobs are awarded on the basis of family ties or personal connections rather than merit, compensation becomes more than a budget issue. It becomes a governance issue.
+Would you want to be the supervisor of the mayor's slacker nephew or the council president's entitled mistress?
 
-New York's own ethics rules recognize the risk. State law prohibits covered officials and employees from participating in decisions to hire, promote, discipline, or discharge relatives, and from awarding contracts to relatives.[^15] That is the right instinct. If a job is attractive enough relative to other available options that insiders will fight to reserve it for friends and family, government needs stronger safeguards.
+> Would you want to be the supervisor of the mayor's slacker nephew or the council president's entitled mistress?
+
+New York State's own ethics rules recognize the risk. State law prohibits covered officials and employees from participating in decisions to hire, promote, discipline, or discharge relatives, and from awarding contracts to relatives.[^15] That is the right instinct but it only applies at the state level. If a job is attractive enough relative to other available options that insiders will fight to reserve it for friends and family, government needs stronger safeguards.
 
 Strict anti-nepotism rules, open competition, and transparent hiring are part of getting public compensation "just right." Compensation systems that are much more attractive than comparable alternatives can invite patronage when hiring safeguards are weak. Compensation that is too low can leave agencies chronically understaffed. Both outcomes weaken government.
 
 ## Conclusion
 
-Public employee compensation is not a culture-war question. It is a governance question. Some jurisdictions underpay the people they most need and get slower, weaker service as a result. Others tolerate compensation systems distorted by overtime abuse, pension manipulation, or political favoritism.
+> Public employee compensation is not a culture-war question. It is a governance question.
+
+Some jurisdictions underpay the people they most need and get slower, weaker service as a result. Others tolerate compensation systems distorted by overtime abuse, pension manipulation, or political favoritism.
 
 Better government requires a narrower and more practical standard. Pay enough to recruit and retain competent people for work that matters. Do not pay so much, or structure pay so poorly, that the system attracts rent-seeking, nepotism, or hidden long-term costs. And redesign public processes so government employees are doing the work that truly requires public authority rather than duplicating what licensed professionals can already certify.
 
