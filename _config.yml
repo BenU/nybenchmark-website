@@ -8,6 +8,7 @@ exclude:
 
 header_pages:
   - methods.md
+  - topics.md
   - mcp.md
   - roadmap.md
   - about.md
